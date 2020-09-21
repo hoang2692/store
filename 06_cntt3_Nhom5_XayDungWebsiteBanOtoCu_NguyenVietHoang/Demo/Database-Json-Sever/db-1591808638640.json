@@ -1,0 +1,100 @@
+{
+  "sadan": [
+    {
+      "name": "adw",
+      "price": 10000000000000,
+      "id": 1
+    },
+    {
+      "name": "wer",
+      "price": "10000000000000",
+      "id": 2
+    },
+    {
+      "name": "test",
+      "price": "50000",
+      "id": 3
+    },
+    {
+      "name": "Iphone",
+      "price": "100000",
+      "id": 4
+    }
+  ],
+  "SUVTOYOTAS": [
+    {
+      "id": 1,
+      "name": "SUV1",
+      "price": "1900000000"
+    },
+    {
+      "name": "adw",
+      "price": "-1",
+      "id": 2
+    },
+    {
+      "name": "Phương",
+      "price": "10000000000000",
+      "id": 3
+    }
+  ],
+  "DaDung": [
+    {
+      "name": "Phương",
+      "price": "10000000000000",
+      "id": 1
+    },
+    {
+      "name": "a",
+      "price": "1000",
+      "id": 2
+    }
+  ],
+  "saloons": [
+    {
+      "name": "adffffffgfdrtey",
+      "price": "10000000000000",
+      "id": 1
+    },
+    {
+      "name": "Phương",
+      "price": "335",
+      "id": 2
+    }
+  ],
+  "SUV2": [
+    {
+      "name": "Phương",
+      "price": "10000000000000",
+      "id": 1
+    }
+  ],
+  "coope": [
+    {
+      "name": "Iphone",
+      "price": "1000",
+      "id": 1
+    }
+  ],
+  "aventador": [
+    {
+      "name": "Phương",
+      "price": "-1",
+      "id": 1
+    }
+  ],
+  "SUV3": [
+    {
+      "name": "Iphone",
+      "price": "1000",
+      "id": 1
+    }
+  ],
+  "harucan": [
+    {
+      "name": "Iphone x",
+      "price": "10000000000000",
+      "id": 1
+    }
+  ]
+}

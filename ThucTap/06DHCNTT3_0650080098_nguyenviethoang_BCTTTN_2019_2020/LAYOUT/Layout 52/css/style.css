@@ -1,0 +1,540 @@
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+body{
+    width: 1920px;
+}
+
+
+.content{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Mont-Bold;
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+
+    font-family: Poppins-Medium;
+    src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Lato-Italic;
+    src: url(../fonts/Lato/Lato-Italic.ttf);
+}
+
+@font-face {
+    font-family: Mont-Regular;
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+.header{
+    background-color: #3cb878;
+    padding-top: 35px;
+}
+
+.header .Top-Bar .logo {
+    padding: 0;
+    font-family: Poppins-Bold;
+    font-size: 35px;
+    font-weight: 600 !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+.header .Top-Bar .Top-Bar-Menu {
+    position: relative;
+    padding: 0;
+    cursor: pointer;
+}
+.header .Top-Bar .Top-Bar-Menu a {
+    margin-left: 65px;
+    font-size: 16px;
+    padding: 0;
+    font-family: Mont-Bold;
+    color: white !important;
+}
+
+
+.banner{
+    background-color: #3cb878;
+    height: 1030px;
+}
+
+.banner .text{
+    padding-top: 310px;
+}
+
+
+.banner .text h2{
+    font-family: Mont-Bold;
+    font-size: 65px;
+    color: white;
+    margin-bottom: 45px;
+}
+
+.banner .text p{
+    font-family: Poppins-Regular;
+    font-size: 21px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.banner .btn-banner{
+    background-color: #fdba01;
+    font-size: 18px;
+    font-family: Mont-Bold;
+    width: 197px;
+    height: 50px;
+    border-radius: unset;
+    box-shadow: 0px 4px 12px 1px gray;
+}
+
+.feature .BG{
+    background-color: white;
+    top: -122px;
+    width: 1170px;
+    padding: 70px 135px 130px 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px rgb(219, 210, 210);
+}
+
+.feature .card{
+    border: none;
+}
+
+.feature .card .icon{
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 35px;
+    box-shadow: 0px 2px 4px 4px rgb(197, 191, 191);
+}
+
+.feature .card .icon i{
+    display: block;
+    text-align: center;
+    padding:25px;
+    font-size: 35px;
+    color: #3cb878
+}
+
+.feature .card .card-body{
+    padding: 0;
+}
+
+.feature .card .card-body .card-title{
+    font-family: Mont-Bold;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+
+.featurea .card .card-body .card-text{
+    font-family: Rato-Regular;
+    font-size: 16px;
+}
+
+.seen{
+    background-color: #eef4fd;
+    padding-top: 446px;
+    padding-bottom: 75px;
+}
+
+.seen .text h4{
+    font-family: Mont-Bold;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+
+.seen p{
+    font-family: Rato-Regular;
+    font-size: 18px;
+    text-align: center;
+    color: #3cb878;
+}
+
+.seen p i{
+    display: inline;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #3cb878;
+}
+
+.feature1{
+    background-color: #eef4fd;
+    height: 720px;
+}
+
+.feature1 .text h4{
+    font-family: Lato-Regular;
+    font-size: 16px;
+    color: #3cb878;
+    margin-bottom: 45px;
+}
+
+.feature1 .text h2{
+    font-size: 50px;
+    font-family: Mont-Bold;
+    margin-bottom: 60px;
+}
+
+.feature1 .text p{
+    font-family: Lato-Regular;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.feature2 {
+    background-color: #eef4fd;
+    padding-top: 45px;
+    height: 1090px;
+}
+
+.feature2 .text .subtitle{
+    font-family: Lato-Regular;
+    font-size: 16px;
+    color: #3cb878;
+    margin-bottom: 45px;
+}
+
+.feature2 .text .title{
+    background-color: #3cb878;
+    padding: 35px 40px 55px 35px;
+    border-radius: 10px;
+}
+
+.feature2 .text .title h4{
+    color: white;
+    font-family: Mont-Bold;
+    margin-bottom: 30px;
+}
+
+.feature2 .text .title p{
+    font-size: 16px;
+    font-family: Lato-Regular;
+    color: white;
+}
+
+.feature2 .text .card ul{
+    background-color: transparent;
+
+}
+
+.feature2 .text .card ul li{
+    margin-top: 30px;
+    height: 97px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: Mont-Bold;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 45px;
+}
+
+.feature2 .text .card ul li i{
+    color: #3cb878;
+    font-size: 30px;
+    margin-right: 35px;
+}
+
+.feature2 .text .card ul li span{
+    color: #3cb878;
+    font-size: 30px;
+    margin-right: 35px;
+    float: right;
+}
+
+
+.pricing{
+    background-color: #eef4fd;
+    padding-top: 70px;
+    padding-bottom: 104px;
+}
+
+.pricing .text p{
+    font-size: 16px;
+    font-family: Lato-Regular;
+    text-align: center;
+    color: #3cb878;
+    margin-bottom: 45px;
+}
+
+.pricing .text h4{
+    text-align: center;
+    font-size: 50px;
+    font-family: Mont-Bold;
+    margin-bottom: 125px;
+}
+
+.pricing .card{
+    padding-top: 60px;
+    padding-bottom: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.pricing .card .card-body .card-title{
+    font-size: 21px;
+    font-family: Poppins-Medium;
+    text-align: center;
+}
+
+.pricing .card .card-body .card-text{
+    font-family: Poppins-SemiBold;
+    font-size: 70px;
+    text-align: center;
+    color: #3cb878;
+}
+
+.pricing .card .card-body .card-text span{
+    font-size: 21px;
+    font-family: Poppins-Regular;
+
+}
+
+.pricing .card .card-body ul{
+    padding: 0;
+    margin-bottom: 70px;
+}
+
+.pricing .card .card-body ul li{
+    list-style: none;
+    text-align: center;
+    font-size: 16px;
+    font-family: Poppins-Regular;
+    margin-top: 25px;
+}
+.pricing .card .card-body .btn-buy{
+    font-size: 16px;
+    font-family: Poppins-SemiBold;
+    width: 100%;
+    background-color: #3cb878;
+    color: white;
+    height: 50px;
+}
+
+.pricing .card:hover{
+    background-color: #3cb878;
+}
+
+.pricing .card:hover .card-text{
+    color: white;
+}
+
+.pricing .card:hover .btn-buy{
+    background-color: white;
+    color: black;
+}
+
+.testimony{
+    background-color: #eef4fd;
+    padding-top: 95px;
+    padding-bottom: 105px;
+}
+
+.testimony .BG{
+    height: 1023px;
+    background-image: url(../images/tes.png);
+}
+
+.testimony .text p{
+    font-family: Lato-Regular;
+    font-size: 16px;
+    color: #3cb878;
+}
+
+.testimony .text h4{
+    font-size: 50px;
+    font-family: Mont-Bold;
+}
+
+.testimony .card .card-body{
+    padding: 45px 35px 75px 40px;
+}
+
+.testimony .card .card-body .card-title{
+    font-size: 21px;
+    font-family: Mont-Regular;
+}
+
+.testimony .card .card-body p{
+    font-size: 24px;
+    font-family: Lato-Italic;
+}
+
+.testimony .card .card-body .card-text{
+    font-size: 16px;
+}
+
+.testimony #carouselExampleIndicators ol{
+    bottom: -30px;
+}
+
+.testimony .carousel-indicators li{
+	display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border: 1px solid #03c;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.testimony .carousel-indicators li.active{
+    background-color: white;
+}
+
+.Quote{
+    padding-top: 85px;
+    background-color: #eef4fd;
+    padding-bottom: 165px;
+}   
+
+.Quote .text p{
+    font-family: Lato-Regular;
+    font-size: 16px;
+    color: #3cb878;
+    text-align: center;
+}
+
+.Quote .text h4{
+    font-size: 50px;
+    font-family: Mont-Bold;
+    text-align: center;
+}
+
+.Quote .form{
+    padding: 100px 100px;
+    padding-bottom: 30px !important;
+}
+
+.Quote .form input{
+    height: 60px;
+}
+
+.Quote .form textarea{
+    height: 180px;
+}
+
+.Quote .btn-quote{
+    width: 200px;
+    height: 57px;
+    background-color: #3cb878;
+    border-radius: unset;
+    display: block;
+    margin: auto;
+}
+
+
+.footer .content .title{
+    font-size: 21px;
+    font-family: Mont-Bold;
+    color: white;
+}
+
+
+.footer .content .title-logo{
+    font-family: Poppins-Bold;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+.footer .content .phone{
+    color: white;
+    font-family: Mont-Regular;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.footer .content .address{
+    color: white;
+    font-family: Lato-Regular;
+    font-size: 16px;
+}
+
+.footer .content .icon{
+    color: white;
+    font-size: 26px;
+}
+
+.footer .content .icon i{
+    margin-right: 20px;
+}
+
+.footer .content{
+    padding-top: 115px;
+    padding-bottom: 105px;
+}
+
+.footer .content .Quik{
+    padding-left: 0;
+    margin-top: 25px;
+}
+
+.footer .content .Quik li{
+    font-family: Lato-Regular;
+    list-style: none;
+    color: white;
+    margin-bottom: 27px;
+}
+
+.footer .content .Quik li p{
+    font-size: 14px;
+}
+
+.footer .BG{
+    width: 85px;
+    height: 60px;
+    background-color: white;
+}
+
+.minifooter {
+    padding-top: 30px;
+    padding-bottom: 16px;
+    background-color: #111111 !important;
+    height: 90px;
+}
+
+.minifooter p{
+    text-align: center;
+    font-family: Lato-Regular;
+    font-size: 18px;
+    color: white;
+}

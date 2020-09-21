@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  user_dashboard_opay_dev:
+    build: 
+      context: ../../
+      dockerfile: "deploy/docker/Dockerfile"
+    ports:
+      - 8000:80
+    volumes:
+      - ../nginx/nginx.dev.conf:/etc/nginx/conf.d/default.conf

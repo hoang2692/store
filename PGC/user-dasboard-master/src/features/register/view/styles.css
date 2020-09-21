@@ -1,0 +1,46 @@
+#register-page .register-form {
+  max-width: 30em;
+  width: 100%;
+  padding: 2em;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+#register-page .register-form-title {
+  float: left;
+  margin-bottom: 25px;
+  font-weight: normal;
+}
+
+#register-page .register-form-forgot {
+  float: right;
+}
+
+#register-page .register-form-checkbox {
+  float: left;
+}
+
+#register-page .register-form-button {
+  width: 100%;
+  background: #40c340;
+  border: unset;
+}
+
+#register-page .register-form-socials {
+  float: left;
+}
+
+#register-page .social-ic {
+  width: 24px;
+  height: 24px;
+}
+
+
+#register-page  .app-logo-container {
+  text-align: center;
+}
+
+#register-page  .app-logo-container .app-logo{
+  text-align: center;
+  height: 10em;
+}

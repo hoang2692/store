@@ -1,0 +1,312 @@
+.services .col-border2{
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.services .col-border1{
+border-right: 1px solid black;
+
+}
+
+.services .col-border3{
+    border-right: 1px solid black;
+}
+
+.services .col-border4{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.services .col-border5{
+    border-top: none;
+    border-bottom: none !important;
+    border-left: none !important;
+    border: 1px solid black;
+}
+
+.services .col-border6{
+border-right: 1px solid black;
+border-top: 1px solid black;
+}
+
+
+.services .dv{
+    color: orange;
+}
+
+.services .title{
+    color: orange;
+    font-weight: bold;
+}
+
+.services .border-title{
+    background-color: orange;
+    border: 1px solid orange;
+    height: 5px;
+    width: 30%;
+    border-radius: 40px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.services .text{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.services .img-hand img{
+    display: block;
+    margin: auto;
+}
+
+.services .img2 img{
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.services .img-4 img{
+    margin-top: 60px;
+}
+
+.services .row-title{
+    color: orange;
+}
+
+.services .row-text{
+    text-align: justify;
+}
+
+.services .img3{
+    margin-top: 60px;
+}
+
+
+.services .img3 img{
+    width: 100%;
+}
+
+.services .bg-img2{
+    background-color: #5A8DFF;
+    height: 30px;
+    width: 80%;
+    display: block;
+    margin: auto;
+    z-index: -1;
+    margin-top: -20px;
+}
+
+.services .bg-col-5{
+    background-color: #00DBD5;
+    height: 50px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    z-index: -1;
+    margin-top: -40px;
+}
+
+.services .bg-img4{
+    background-color: #FFC776;
+    height: 30px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    z-index: -1;
+    margin-top: -20px;
+}
+
+.introduce{
+    padding-bottom: 65px;
+}
+
+.introduce .title{
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.introduce .border{
+    border-color: orange;
+    background-color: orange;
+    height: 5px;
+    border-radius: 40px;
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.introduce .text{
+    text-align: justify;
+}
+
+.introduce .img-computer img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.success .img img{
+    width: 100%;
+}
+
+
+.success2 .BG{
+    background: linear-gradient(to right,#0DB14B,#006768);
+}
+
+.success2 .card{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: unset;
+}
+
+.success2 .card::after {
+    width: 366px;
+    height: 34%;
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -2px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.success2 .card-center::after {
+    width: 351px;
+    height: 34%;
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -2px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.success2 .card .card-body{
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+
+.success2 .card .card-img-top{
+    margin-top: 15px !important;
+    margin: auto;
+    display: block;
+    width: 69px;
+    height: 69px;
+}
+
+.success2 .card .card-title{
+    text-align: center;
+    color: white;
+}
+
+.success2 .card .card-text{
+    color: white;
+    text-align: justify;
+}
+
+.section7 img{
+    height: 60px;
+    width: 120px !important;
+}
+
+
+
+.rsi {
+    display: block;
+    margin: auto;
+  }
+
+  .section7 {
+      padding-top: 35px;
+    margin: 0 30px;
+  }
+  
+  .section7 .title h1 {
+    font-weight: bolder !important;
+    color: #f07e3c;
+    text-align: center;
+  }
+  .section7 .title .line1 {
+    background-color: #f07e3c;
+    border: 1px solid;
+    border-color: #f07e3c;
+    border-radius: 20px;
+    border-width: 3px;
+    width: 10%;
+    margin: auto;
+  }
+
+
+  .datagram .img img{
+      width: 100%;
+      padding-top: 45px;
+  }
+
+
+@media screen and (max-width: 2500px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+    .services .img-4 img {
+        width: 100% !important;
+        margin-top: 98px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .services .img-hand img {
+        margin-top: 50px !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    .text-responsive{
+        text-align: center;
+    }
+    .services .title {
+        text-align: center;
+    }
+    .services .border-title {
+        margin: auto;
+        display: block;
+        position: unset;
+    }
+    .col-border1{
+        border-right: none !important;
+    }
+    .services .col-border2 {
+        border-right: none !important;
+    }
+    .services .col-border3 {
+        border-right: none !important;
+    }
+    .services .col-border4 {
+        border-top: 1px solid #dcd8d8 !important;
+        border-right: none !important;
+    }
+    .services .row-title {
+        text-align: center;
+    }
+    .services .col-border5 {
+        border: none;
+    }
+    .services .col-border6 {
+        border: none;
+    }
+    .services .img-4 img {
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .services .img-4 img {
+        width: unset !important;
+    }
+}

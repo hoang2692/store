@@ -1,0 +1,73 @@
+#landing-page .background-content {
+  height: 45em;
+  overflow: hidden;
+}
+
+#landing-page .absolute-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding-top: 4em;
+}
+
+#landing-page .background-block {
+  background-image: url("../../../commons/images/landing-background.jpg");
+  background-color: #cccccc;
+  height: 45em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#landing-page .big-title {
+  font-family: PingFangSC-Regular;
+  font-size: 3em;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+#landing-page .sub-title {
+  font-family: PingFangSC-Regular;
+  font-size: 1.5em;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+#landing-page .caption {
+  font-family: PingFangSC-Regular;
+  color: #000000;
+  opacity: 0.45;
+  text-align: left;
+  font-size: 1em;
+}
+
+#landing-page .content-custom {
+  background: #ffffff;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 5px;
+  padding: 1.5em;
+}
+
+#landing-page .selection-custom {
+  width: 100%;
+}
+
+#landing-page .text-shadow {
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.45);
+}
+
+#landing-page .container-shadow {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}

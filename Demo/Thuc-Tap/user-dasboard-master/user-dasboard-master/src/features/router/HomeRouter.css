@@ -1,0 +1,39 @@
+#home-router .menu-item {
+  /* height: 60px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+#home-router .ant-layout-sider {
+  background-color: #263444;
+}
+
+@media (max-width: 767px) {
+  #home-router .side-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 767px) {
+  #home-router .drawer-menu-bugur-button {
+    display: none;
+  }
+}
+
+#home-router .menu-list {
+  background-color: #263444;
+}
+
+#home-router .menu-icon {
+  color: #ffff;
+  margin-top: 5px;
+}
+
+#home-router .menu-label {
+  color: #ffff;
+  margin-top: 5px;
+  font-weight: 500;
+}

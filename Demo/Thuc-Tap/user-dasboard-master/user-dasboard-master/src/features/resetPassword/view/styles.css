@@ -1,0 +1,49 @@
+#reset-password-page .reset-password-form {
+  max-width: 30em;
+  width: 95%;
+  padding: 2em;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+#reset-password-page .reset-password-form-title {
+  float: left;
+  margin-bottom: 25px;
+  font-weight: normal;
+}
+
+#reset-password-page .reset-password-form-forgot {
+  float: right;
+}
+
+#reset-password-page .reset-password-form-checkbox {
+  float: left;
+}
+
+#reset-password-page .reset-password-form-button {
+  width: 100%;
+}
+
+#reset-password-page .reset-password-form-socials {
+  float: left;
+}
+
+#reset-password-page .social-ic {
+  width: 24px;
+  height: 24px;
+}
+
+#reset-password-page  .app-logo-container {
+  text-align: center;
+}
+
+#reset-password-page  .app-logo-container .app-logo{
+  text-align: center;
+  height: 10em;
+}
+
+#reset-password-page  .error-text {
+  text-align: center;
+  color: #ff0000c7;
+  font-size: 2em;
+}

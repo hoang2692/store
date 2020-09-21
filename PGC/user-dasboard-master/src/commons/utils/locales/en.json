@@ -1,0 +1,234 @@
+{
+    "app_name": "OPAY",
+    "app": {
+        "copyright": "Copyright © 2020 OPAY Inc",
+        "currency_name": "OPAY",
+        "logout": "Logout",
+        "user_profile": "Profile"
+    },
+    "login": {
+        "title": "Login",
+        "email": "Email", 
+        "password": "Password",
+        "remember_me": "Remember Me",
+        "forgot_password": "Forgot Password",
+        "do_login": "Login",
+        "or": "Login with",
+        "register_now": "Register",
+        "errors": {
+            "wrong_credential": "Email and password does not match, please try again!",
+            "missing_email": "Please enter your email!",
+            "missing_password": "Please enter your password!"
+        }
+    },
+    "register": {
+        "title": "Create new account",
+        "username": "Username",
+        "email": "Email", 
+        "password": "6-16 digit password, case sensitive",
+        "confirm_password": "Confirm password",
+        "do_register": "Create now",
+        "phone_number": "Phone Number",
+        "confirm_code": "Confirm Code",
+        "verify_phone_number": "Verify Phone Number",
+        "already_have_an_account": "Already have an account?",
+        "login_now": "Login",
+        "last_name": "Last Name",
+        "first_name": "First Name",
+        "errors": {
+            "missing_username": "Please enter your username!",
+            "missing_phone": "Please enter your phone number!",
+            "missing_phone_code": "Please enter your verify code!",
+            "missing_email": "Please enter your email!",
+            "missing_password": "Please enter your password!",
+            "missing_first_name": "Please enter your first name!",
+            "missing_last_name": "Please enter your last name!"
+        },
+        "register_success": "New Account!",
+        "register_success_sub": "Your account has been created, Please verify your email before login!"
+    },
+    "verifyEmail": {
+        "title": "Verify your email address",
+        "email": "Email", 
+        "do_verify": "The verification proccess will take a few minutes",
+        "do_verify_fail": "Verify failure, please try again",
+        "verify_email_success": "Verify success!",
+        "verify_email_success_sub": "Congratulations! You just active success your email, now you can login and make some transactions.",
+        "errors": {
+            "wrong_credential": "Email and password does not match, please try again!",
+            "missing_email": "Please enter your email!",
+            "missing_password": "Please enter your password!"
+        }
+    },
+    "resetPassword": {
+        "title": "Change password",
+        "email": "Email", 
+        "do_reset": "Update",
+        "password": "6-16 digit password, case sensitive",
+        "repassword": "Enter password again",
+        "errors": {
+            "missing_password": "Please enter new password!",
+            "missing_repassword": "Please enter confirm password"
+        },
+        "reset_password_success": "Change password successfully!",
+        "reset_password_success_sub": "Your password has been changed, Please login again!",
+        "reset_failure": "Change password failure, please try again"
+    },
+    "home": {
+        "menu": {
+            "dashboard": "Dashboard",
+            "transactions": "Transactions",
+            "send_and_request": "Send & Request",
+            "settings": "Settings",
+            "supports": "Supports"
+        }
+    },
+    "dashboard": {
+        "stat": "Stat",
+        "total": "Total",
+        "total_income": "Total Income",
+        "total_outcome": "Total Outcome",
+        "this_week": "This week: ",
+        "today": "Today: ",
+        "stat_by_day": "Today",
+        "stat_by_week": "Week",
+        "stat_by_month": "Month",
+        "stat_by_year": "Year",
+        "transaction": {
+            "transactions": "Transactions",
+            "method": "Method",
+            "type": "Type",
+            "asset":  "Asset",
+            "txid": "TXID",
+            "amount": "Amount",
+            "amountInOpay": "OPAY Used",
+            "status": "Status",
+            "time": "Time",
+            "more_transactions": "More",
+            "transaction_history" : "Transaction Histories"
+        }
+    },
+    "errors": {
+        "form": {
+            "username_empty": "Please enter your username.",
+            "username_already_exists": "Username is exist, please try another one." ,
+            "email_already_exists": "Email already exists, please try another one.",
+            "phone_already_exists": "Phone Number is exist, please try another one.",
+            "password_min_is_6": "Passwords must be at least 6 characters long.",
+            "verify_code_is_not_matches": "Your reset password url is invalid or expires.",
+            "confirm_pass_not_match": "Password and confirm password does not match.",
+            "email_is_not_verify_yet": "Please verify your email first.",
+            "user_password_not_match": "Email and password is not match, please try again.",
+            "invalid_token_social": "Login social failure, please try again."
+        },
+        "error_500": "Sorry, the server has shut down this server for maintenance. Once maintenance starts, users will be unable to connect to servers. Please contact to administrator if you need to get support!"
+    },
+    "send": {
+        "form": {
+            "input_method_placeholder": "Please select a method.",
+            "input_amount_placeholder": "Please enter amount.",
+            "errors": {
+                "missing_amount": "Please enter amount.",
+                "missing_address": "Please enter a address.",
+                "missing_2fa": "Please enter the 2FA code.",
+                "not_enough_balance": "Not enough balance."
+            },
+            "success": {
+                "title": "Withdrawal successfully!", 
+                "description": "Your had withrawal successfully {{amount}} OPAY"
+            },
+            "send": "Send",
+            "method": "Output Method",
+            "amount": "Amount",
+            "submit": "Submit",
+            "to_address": "To Address: ",
+            "to_input_address_placeholder": "Please enter a address whose receive it",
+            "2fa_code": "2FA code",
+            "input_2fa_code_placeholder": "Please enter the 2FA code"
+        }
+    },  
+    "request": {
+        "form": {
+            "input_method_placeholder": "Please select a method.",
+            "success": {
+                "title": "Withdrawal successfully!", 
+                "description": "You had withrawal successfully {{amount}} {{method}}"
+            },
+            "errors": {
+                "not_found_route": "This method does not support yet!"
+            },
+            "request": "Request",
+            "method": "Method",
+            "amount": "Amount (OPAY)",
+            "submit": "Submit",
+            "copy": "Copy",
+            "address": "Address: "
+        }
+    },
+    "methods": {
+        "label": "Method",
+        "coming_soon": "Coming Soon",
+        "cse": "CSE",
+        "opay": "OPAY",
+        "paypal": "Paypal",
+        "momo": "Momo"
+    },
+    "apiSetting": {
+        "create": {
+            "title": "Create new application",
+            "create": "Create",
+            "form": {
+                "name": "Name",
+                "input_name_placeholder": "Enter the application name",
+                "errors": {
+                    "missing_name": "Please enter the application name"
+                },
+                "success": {
+                    "create": "Create successfully!",
+                    "create_sub": "The application {{name}} has been created!"
+                }
+            }
+        },
+        "update": {
+            "title": "Update application",
+            "create": "Update",
+            "form": {
+                "name": "Name",
+                "webhook_url": "Webhook URL",
+                "input_name_placeholder": "Enter the application name",
+                "input_webhook_url_placeholder": "Enter the webhook URL of your application",
+                "errors": {
+                    "missing_name": "Please enter the application name"
+                },
+                "success": {
+                    "update": "Update successfully!",
+                    "update_sub": "The application {{name}} has been updated!"
+                }
+            }
+        },
+        "delete": {
+            "form": {
+                "success": {
+                    "delete": "Delete successfully!",
+                    "delete_sub": "The application {{name}} has been deleted!"
+                }
+            }
+        },
+        "showSecret": {
+            "title": "Please Re-enter Your Password",
+            "password": "Password",
+            "password_placeholder": "Enter the password.",
+            "submit": "Submit",
+            "cancel": "Cancel",
+            "copy": "Copy",
+            "copied": "Copied"
+        }
+    },
+    "transaction": {
+        "options": {
+            "all": "All",
+            "income": "In come",
+            "outcome": "Out come"
+        }
+    }
+}

@@ -1,0 +1,608 @@
+.navitem {
+  position: relative;
+  padding: 0;
+}
+
+.navitemlast a {
+  font-size: 18px;
+  padding: 0;
+  font-weight: 600;
+  color: white !important;
+}
+
+.navitem::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "|";
+  font-weight: 600;
+  color: white;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid red;
+  position: relative;
+  border-left: 0;
+  border-bottom: 0;
+  border-top: 0;
+}
+
+.half-circle {
+  margin-top: 2px;
+  width: 30px;
+  height: 30px;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border: 1px solid red;
+  border-right: 0;
+  border-bottom: 0;
+  border-top: 0;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  -webkit-box-shadow: -21px 2px 20px -4px rgba(250, 11, 3, 1);
+  -moz-box-shadow: -21px 2px 202px -4px rgba(250, 11, 3, 1);
+  box-shadow: -21px 2px 20px -4px rgba(250, 11, 3, 1);
+}
+.icon {
+  position: absolute;
+  top: 10px;
+  left: 11px;
+  font-size: 23px;
+  color: red;
+}
+
+.circle2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid white;
+    position: relative;
+    border-left: 0;
+    border-bottom: 0;
+    border-top: 0;
+    float: right;
+    border-width: 2px;
+  }
+  
+  .half-circle2 {
+    width: 30px;
+    height: 30px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border: 1px solid white;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    border-width: 2px;
+  }
+  .icon2 {
+    position: absolute;
+    top: 2px;
+    left: 11px;
+    font-size: 23px;
+    color: white;
+  }
+.progress {
+  margin-top: 0px;
+  border: 1px solid red;
+  border-left: 1px solid white;
+  border-radius: 160px;
+  position: relative;
+  background-color: transparent;
+  height: 40px;
+  width: 150px;
+  float: right;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.text {
+  color: red;
+  font-weight: bold;
+  font-size: 15px;
+  position: relative;
+  top: 50%;
+  left: 10px;
+  transition: all 2s;
+  display: block;
+}
+
+.navitem a {
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 18px;
+  padding: 0;
+  font-weight: 600;
+  color: white !important;
+}
+
+.h3Slide {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  color: white;
+  font-size: 30px;
+}
+
+.h1Slide {
+  position: absolute;
+  top: 49%;
+  left: 10%;
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  border: 1px solid #03c;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.line {
+  margin-top: 10px;
+  position: relative;
+  border: 1px solid black;
+  background-color: black;
+}
+
+.line .circle {
+  position: absolute;
+  height: 11px;
+  left: 50%;
+  width: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  top: -5px;
+}
+
+.section3 {
+  padding-top: 20px;
+}
+.H1 {
+  background: linear-gradient(to right bottom, #099c53, #037662);
+  border-radius: 10px;
+  color: white;
+  padding: 40px 10px;
+  text-align: right;
+}
+.icon-section3 {
+  text-align: center;
+  padding-top: 10px;
+  color: green;
+  font-size: 60px;
+}
+
+.section3 .card-text {
+  text-align: justify;
+  padding: 0 10px;
+}
+
+.section3 .card-title {
+  color: red;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.section3 .bg {
+  background-color: #099c53;
+}
+
+.section3 .icon-section3-center {
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  font-size: 60px;
+}
+
+.section3 .title-center {
+  color: white;
+}
+
+.section3 .card-text-center {
+  color: white;
+}
+
+.section3 .card a i {
+  bottom: 20px;
+  right: 20px;
+  position: absolute;
+  color: white;
+  text-align: right;
+  display: block;
+  padding-right: 13px;
+}
+
+.section3 .card {
+  box-shadow: 5px 5px 5px 1px #888888;
+}
+
+.overflow {
+  border-radius: 10px;
+  position: absolute;
+  width: 87%;
+  top: 140px;
+  left: 13%;
+  right: 0;
+  z-index: -1;
+  height: 260px;
+  background-color: #ceeedb;
+}
+
+.overflow .circle3{
+    position: absolute;
+    left: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid red;
+    border-left: 0;
+    border-bottom: 0;
+    border-top: 0;
+    border-width: 2px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.overflow .circle3 .half-circle3{
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    width: 30px;
+    height: 30px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border: 1px solid red;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    border-width: 2px;
+}
+
+.overflow .circle3 .icon3{
+    position: absolute;
+    top: 2px;
+    left: 11px;
+    font-size: 23px;
+    color: red;
+}
+
+.overflow .circle4{
+    position: absolute;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid red;
+    border-left: 0;
+    border-bottom: 0;
+    border-top: 0;
+    border-width: 2px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.overflow .circle4 .half-circle4{
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    width: 30px;
+    height: 30px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border: 1px solid red;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    border-width: 2px;
+}
+
+.overflow .circle4 .icon4{
+    position: absolute;
+    top: 2px;
+    left: 11px;
+    font-size: 23px;
+    color: red;
+}
+
+@media screen and (max-width: 2500px) {
+    .section3 .card{
+        height: 380px !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+  .section2 .ipadreposive {
+    margin-top: 0px !important;
+  }
+  .footer .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .footer .ggmap {
+    margin-left: 30px !important;
+    margin-top: 50px;
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section2 .ipadreposive {
+    margin-top: 0px !important;
+  }
+  .section4 .card {
+    height: 350px !important;
+  }
+  .section6 .card {
+    height: 480px !important;
+  }
+  .footer .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .footer .ggmap {
+    margin-left: 70px !important;
+    margin-top: 90px;
+    width: 220px;
+  }
+  .section3 .card{
+    height: 800px !important;
+}
+}
+@media screen and (max-width: 576px) {
+  .section6 .card {
+    height: 300px !important;
+  }
+  .section4 .overflow2 {
+    display: none;
+  }
+  .footer .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .footer .ggmap {
+    margin-left: 0 !important;
+    margin-top: 5px;
+    width: 100%;
+  }
+  .section3 .card{
+    height: 440px !important;
+}
+}
+
+.section4 {
+  margin: 0 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.section4 .imgsize {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+}
+
+.section4 .card {
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 5px 1px #888888;
+}
+
+.section4 .card p {
+  text-align: justify;
+}
+
+.section5 {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: linear-gradient(to bottom, #099c53, #037662);
+}
+
+.section5 .title {
+  text-align: center;
+  color: white;
+}
+
+.section5 .linetitle {
+  border-bottom: 2px solid black;
+  width: 50px;
+  margin: auto;
+  background-color: white;
+  border-color: white;
+  margin-bottom: 20px;
+}
+
+.section5 .info h5 {
+  color: yellow;
+  text-align: center;
+}
+
+.section5 .info p {
+  text-indent: 15px;
+  padding: 0 10px;
+  text-align: justify;
+  color: white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.section6 {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.overflow2 {
+  position: absolute;
+  width: 25%;
+  left: 5px;
+  bottom: 60px;
+  z-index: -1;
+  height: 350px;
+  background-color: #9ce7f0;
+  border-radius: 10px;
+}
+
+.section6 .title h1 {
+  color: #f07e3c;
+  text-align: center;
+}
+
+.section6 .card-img-top {
+  height: 80px;
+  width: 80px;
+  margin: auto;
+  margin-top: 7px;
+}
+
+.section6 .card-title {
+  text-align: center;
+}
+
+.section6 .card-bg {
+  background: linear-gradient(to bottom, #099c53, #037662);
+  box-shadow: 5px 5px 5px 1px #888888;
+}
+
+.section6 .card-box {
+  box-shadow: 0px 5px 0px 0px #099c53,5px 0px 5px 0px #888888;
+}
+
+.section6 .card {
+  margin-top: 20px;
+}
+
+.section7 {
+  margin: 0 30px;
+}
+
+.section7 .title h1 {
+  font-weight: bolder !important;
+  color: #f07e3c;
+  text-align: center;
+}
+.section7 .title .line1 {
+  background-color: #f07e3c;
+  border: 1px solid;
+  border-color: #f07e3c;
+  border-radius: 20px;
+  border-width: 3px;
+  width: 10%;
+  margin: auto;
+}
+
+.footer .bg-footer {
+  background-image: url("./image/botcopy.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.footer .container-fluid {
+  padding-top: 50px;
+  margin: auto;
+}
+
+.footer .info h5 {
+  color: white;
+  font-weight: 600;
+}
+
+.footer .info p {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.line2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  border: 1px solid white;
+  background-color: black;
+}
+
+.line2 .circle2 {
+  position: absolute;
+  height: 11px;
+  left: 50%;
+  width: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  top: -5px;
+}
+
+.footer .info2 h4 {
+  color: #f07e3c !important;
+  font-weight: 600;
+}
+
+.footer .info2 p {
+  color: white !important;
+  font-size: 18px;
+}
+
+.footer .info2 a {
+  color: white !important;
+  font-size: 15px;
+}
+.rsi {
+  width: 100% !important;
+}
+
+.section7 img{
+    height: 60px;
+    width: 120px !important;
+}
+
+
+.circle5 {
+    position: absolute;
+    bottom: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid white;
+    position: relative;
+    border-left: 0;
+    border-bottom: 0;
+    border-top: 0;
+    float: right;
+    border-width: 2px;
+  }
+  
+  .half-circle5 {
+    width: 30px;
+    height: 30px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border: 1px solid white;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    border-width: 2px;
+  }
+  .icon5 {
+    position: absolute;
+    top: 2px;
+    left: 11px;
+    font-size: 23px;
+    color: white;
+  }

@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSOT</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./fontawesome/fontawesome-free-5.13.1-web/css/all.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section style="position: relative;">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-fixed-top">
+            <a class="navbar-brand" href="#"><img src="./image/logo2-3.png" alt=""
+                    style="width: 100px;height: 50px;margin-left: 50px;" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-right: 50px;">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active navitem">
+                        <a class="nav-link" href="#">GIỚI THIỆU<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item navitem">
+                        <a class="nav-link" href="#">DỊCH VỤ</a>
+                    </li>
+                    <li class="nav-item navitem">
+                        <a class="nav-link" href="#">BẢNG TIN</a>
+                    </li>
+                    <li class="nav-item navitem">
+                        <a class="nav-link" href="#">TUYỂN DỤNG</a>
+                    </li>
+                    <li class="nav-item navitemlast">
+                        <a class="nav-link" href="#">LIÊN HỆ</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0" style="margin-left: 50px;">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="border: none"><i
+                            style="font-size: 20px;color: white;" class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </nav>
+    </section>
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active docslide">1</li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="position: relative;">
+                    <img class="d-block w-100" src="./image/bannerr.png" alt="First slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <section class="section2" style="margin-left: 60px;margin-right: 60px;">
+        <div class="container-fluid">
+            <div class="row" style="justify-content: center;padding-top: 10px;">
+                <div class="col-12 col-sm-12 col-md-6">
+                    <div class="row" style="margin-top: 10px;">
+                        <div class="col-md-5 col-sm-12 col-12" style="margin-top: 10px;">
+                            <img style="overflow: hidden;width: 100%;" src="./image/WEB-SITE7-1.png" />
+                        </div>
+                        <div class="col-md-5 col-sm-12 col-12" style="margin-top: 10px;">
+                            <img style="overflow: hidden;width: 100%;border-radius: 15px;" src="./image/WEB SITE7-2.jpg" />
+                        </div>
+                        <div class="col-md-10 col-sm-12 col-12" style="margin-top: 10px;">
+                            <img style="height: 200px;overflow: hidden;width: 100%;" src="./image/img3.png" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 mt-2">
+                    <div class="col-md-8 col-12 col-sm-12 ipadreposive" style="margin-top: 150px;">
+                        <h1 style="color: red;">VỀ CHÚNG TÔI</h1>
+                        <p style="text-align: justify;">
+                            Là công ty chuyên tư vấn, xây dựng và triển khai các giải
+                            pháp quản lý thông minh bằng phần mềm trong toàn bộ
+                            hoạt động quản lý vận hành, sản xuất, kinh doanh của
+                            doanh nghiệp. Các giải pháp của chúng tôi được xây dựng
+                            dựa trên các công nghệ hiện đại nhất thế giới, phú hợp với
+                            từng khách hàng cụ thể
+                        </p>
+                            <div class="progress">
+                                <div class="circle">
+                                    <div class="half-circle"></div>
+                                  <span class="icon"><i class="fa fa-arrow-right" aria-hidden="true"></i></span>  
+                                </div>
+                                <p class="text">XEM THÊM</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="line">
+                <div class="circle">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section3" style="margin-left: 30px;margin-right: 30px;">
+        <div class="container-fluid" style="padding: 0px 40px;">
+            <div class="row" style="justify-content: center;position: relative;">
+                <div class="col-12 overflow">
+                    <div class="circle3">
+                        <div class="half-circle3"></div>
+                      <span class="icon3"><i class="fa fa-arrow-right" aria-hidden="true"></i></span>  
+                    </div>
+                    <div class="circle4">
+                        <div class="half-circle4"></div>
+                      <span class="icon4"><i class="fa fa-arrow-left" aria-hidden="true"></i></span>  
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-3">
+                    <div class="H1">
+                        <h2>VẤN ĐỀ</br>DOANH NGHIỆP</br> ĐANG GẶP PHẢI?</h2>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-9">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <div class="card">
+                                <div class="icon-section3">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">QUẢN LÍ THỦ CÔNG</h5>
+                                    <p class="card-text">Hồ sơ, sổ sách của doanh
+                                        nghiệp đang được quản lý
+                                        một cách thủ công hoặc
+                                        thông qua các quản
+                                        lý đơn giản như MS Office =>
+                                        Không phát huy được tối đa
+                                        năng suất làm việc nhân viên.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <div class="card bg">
+                                <div class="icon-section3-center">
+                                    <i class="fas fa-file-alt"></i>
+                                </div>
+                                <div class="card-body card-center" style="position: relative;">
+                                    <h5 class="card-title title-center">KIỂM SOÁT CHƯA TỐT</h5>
+                                    <p class="card-text card-text-center">Công tác đánh giá hoạt động
+                                        kinh doanh của doanh nghiệp
+                                        chưa thật sự tốt, không chủ
+                                        động kiểm soát được doanh
+                                        nghiệp mọi lúc, mọi nơi =>
+                                        Gây lãng phí về thời gian và
+                                        tiền bạc.</p>
+                                        <div class="circle2">
+                                            <div class="half-circle2"></div>
+                                          <span class="icon2"><i class="fa fa-arrow-right" aria-hidden="true"></i></span>  
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <div class="card">
+                                <div class="icon-section3">
+                                    <i class="far fa-comments"></i>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">KHÔNG THỎA MÃN</h5>
+                                    <p class="card-text">Doanh nghiệp không thỏa
+                                        mãn với các chức năng, sự
+                                        tùy biến và cảm thấy không
+                                        phù hợp của các phần mềm
+                                        đóng gói ngoài thị trường. =>
+                                        Và anh chị cần điều gì đó cho
+                                        riêng mình. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="line" style="margin-top: 40px;">
+                <div class="circle">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section4">
+        <div class="container-fluid">
+            <div class="row" style="justify-content: center;position: relative;">
+                <div class="col-4 overflow2">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6">
+                    <div class="row" style="margin-top: 17px;position: relative;justify-content: center;">
+                        <div class="col-12 col-sm-12 col-md-5">
+                            <div class="card" style="height: 250px;">
+                                <img class="card-img-top imgsize" src="./image/10.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Quản lý doanh nghiệp, chặt chẽ, hiệu quả mọi lúc, mọi nơi
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-5">
+                            <div class="card" style="height: 250px;">
+                                <img class="card-img-top imgsize" src="./image/11.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Tăng tối đa năng suất làm việc của đội ngũ nhân viên trong công
+                                        ty
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-5">
+                            <div class="card" style="height: 250px;">
+                                <img class="card-img-top imgsize" src="./image/12.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Tiết kiệm chi phí doanh nghiệp hàng năm, tránh gây
+                                        thất thoát.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-5">
+                            <div class="card" style="height: 250px;">
+                                <img class="card-img-top imgsize" src="./image/13.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Tăng trưởng doanh thu và lợi nhuận tối đa với các nguồn lực
+                                        hiện có
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6">
+                    <div class="row" style="margin-top: 10px;justify-content: center;">
+                        <div class="col-12 col-sm-12 col-md-6" style="margin-top: 10px;">
+                            <img style="overflow: hidden;width: 100%;"
+                                src="./image/z1961312647361_b5ec7348fdf14969a32727f898544640.jpg" />
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6" style="margin-top: 10px;">
+                            <img style="overflow: hidden;width: 100%;border-radius: 15px;"
+                                src="./image/1.png" />
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12" style="margin-top: 10px;">
+                            <img style="overflow: hidden;width: 100%;"
+                                src="./image/z1961312644851_27bd0ed8bef8001245c21c31a99d4290.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section5">
+        <div>
+            <h1 class="title">GSOT SẼ GIÚP ANH CHỊ</h1>
+            <div class="linetitle"></div>
+        </div>
+        <div class="container-fluid">
+            <div class="row info">
+                <div class="col-12 col-sm-6 col-md-6">
+                    <h5>XÂY DỰNG HỆ THỐNG PHẦN MỀM THÔNG MINH</h5>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <p>
+                                Xây dựng cho riêng
+                                anh chị một Hệ thống
+                                phần mềm thông
+                                minh. Đáp ứng đầy đủ
+                                các yêu cầu về mặt kỹ
+                                thuật, để giải quyết các
+                                khó khăn cho doanh
+                                nghiệp của mình.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <p>
+                                Các hệ thống phần
+                                mềm của GSOT được
+                                xây dựng trên các nền
+                                tảng kỹ thuật hiện đại
+                                nhất. Có thể dễ dàng
+                                kết nối với các thiết bị
+                                như: Máy chấm công,
+                                Máy in mã vạch, Camera
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <p>
+                                Các hệ thống phần
+                                mềm GSOT được xây
+                                dựng tập trung vào các
+                                yếu tố chính: Tích hợp
+                                toàn diện, dễ dàng sử
+                                dụng, phù hợp với
+                                doanh nghiệp Việt và
+                                chi phí hợp lý.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6">
+                    <h5>XÂY DỰNG HỆ THỐNG PHẦN MỀM THÔNG MINH</h5>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <p>Tư vấn sử dụng một
+                                hệ thống hạ tầng
+                                phù hợp cho Hệ thống
+                                phần mềm của doanh
+                                nghiệp. Điều này sẽ
+                                làm giảm đáng kể chi
+                                phí vận hành hàng năm
+                                mà anh chị phải trả.</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <p class="reponsive">Tư vấn và đạo tạo
+                                cho đội ngũ nhân viên
+                                của anh chị về mặt kỹ
+                                thuật cách sử dụng Hệ
+                                thống phần mềm một
+                                cách dễ dàng nhất.
+                                Nhằm tiết kiệm thời
+                                gian vận hành sau này.</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4">
+                            <p>Hỗ trợ tư vấn cho
+                                doanh nghiệp
+                                các thiết bị phần cứng
+                                phù hợp; Nhằm gia
+                                tăng hiệu suất làm việc
+                                của các thiết bị cũng
+                                như tối ưu thời gian sử
+                                dụng lâu dài.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section6">
+        <div class="title">
+            <h1>Tại sao <b>PHẢI LÀ</b><img style="width: 180px;height: 120px;" src="./image/logo.png" /></h1>
+            <div class="row" style="justify-content: center;">
+                <div class="col-12 col-sm-12 col-md-3">
+                    <div class="card card-box" style="height: 310px;">
+                        <img class="card-img-top" src="./image/l1.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">THIẾT KẾ RIÊNG BIỆT</h5>
+                            <p class="card-text">Hệ thống phần mềm của
+                                được thiết kế và xây dựng
+                                theo đặc điểm, nghiệp vụ và
+                                quy trình riêng đặc biệt phù
+                                hợp đối với từng lĩnh vực, mô
+                                hình kinh doanh.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-3">
+                    <div class="card card-bg" style="height: 310px;position: relative;">
+                        <img class="card-img-top" src="./image/l2.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">CẢI TIẾN LIÊN TỤC</h5>
+                            <p class="card-text">Các Hệ thống phần mềm
+                                được GSOT xây dựng và vận
+                                hành, hỗ trợ cải tiến theo
+                                công nghệ và tình hình phát
+                                triển cũng như thay đổi của
+                                doanh nghiệp trong tương lai.
+                            </p>
+                            <div class="circle5">
+                                <div class="half-circle5"></div>
+                              <span class="icon5"><i class="fa fa-arrow-right" aria-hidden="true"></i></span>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-3">
+                    <div class="card card-box" style="height: 310px;">
+                        <img class="card-img-top" src="./image/l3.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">ĐỘI NGŨ CHUYÊN NGHIỆP</h5>
+                            <p class="card-text">Đội ngũ của GSOT được đào
+                                tạo chuyên nghiệp, với nhiều
+                                năm kinh nghiệm, đầy nhiệt
+                                huyết và trách nhiệm, luôn
+                                sẵn sàng tư vấn và hỗ trợ anh
+                                chị 24/7.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line" style="margin-top: 40px;">
+            <div class="circle">
+            </div>
+        </div>
+    </section>
+    <section class="section7">
+            <div class="title">
+                <h1>KHÁCH HÀNG CỦA GSOT</h1>
+                <div class="line1">
+                </div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center mt-3">
+                    <div class="col-6 col-sm-6 col-md">
+                        <img class="rsi" src="./image/cola.png">
+                    </div>
+                    <div class="col-6 col-sm-6 col-md">
+                        <img class="rsi" src="./image/cocain.PNG">
+                    </div>
+                    <div class="col-6 col-sm-6 col-md">
+                        <img class="rsi" src="./image/cola.png">
+                    </div>
+                    <div class="col-6 col-sm-6 col-md">
+                        <img class="rsi" src="./image/cola.png">
+                    </div>
+                    <div class="col-6 col-sm-6 col-md">
+                        <img class="rsi" src="./image/cola.png">
+                    </div>
+                </div>
+                <div class="row" style="justify-content:center;">
+                    <div class="col-6 col-sm-6 col-md">
+                        <img class="rsi" src="./image/cola.png">
+                    </div>
+                    <div class="col-6 col-sm-6 col-md">
+                        <img class="rsi" src="./image/cola.png">
+                    </div>
+                    <div class="col-6 col-sm-6 col-md">
+                        <img class="rsi" src="./image/cola.png">
+                    </div>
+                    <div class="col-6 col-sm-6 col-md">
+                        <img class="rsi" src="./image/cola.png">
+                    </div>
+                    <div class="col-6 col-sm-6 col-md">
+                        <img class="rsi" src="./image/cola.png">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="footer">
+        <div class="bg-footer">
+            <div class="container-fluid">
+                <div class="row" style="margin-top: 55px;justify-content: center;margin-left: 98px;margin-right: 86px;">
+                    <div class="col-12 col-sm-12 col-md-5" style="padding-top: 45px;">
+                        <div class="info">
+                            <h5>CÔNG TY CỔ PHẦN GIẢI PHÁP THÔNG MINH XANH</h5>
+                            <p>81/15/18 Huỳnh Văn Nghệ, P.12, Q., Tp. HCM </p>
+                            <p>Văn phòng: 127/2 Hoàng Hoa Thám, P. 13, Q. Tân Bình, Tp.HCM </p>
+                            <p>Điện thoại: (028) 6286 1906 - Mobile: 0966662580 </p>
+                            <p>Email: info@gsotgroup.vn<a class="ml-4">MST: 0314567061</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-2">
+                        <div class="info2">
+                            <h4>LIÊN KẾT</h4>
+                            <p>Facebook<a class="ml-5">Pinterest</a></p>
+                            <p>Linkedin<a class="ml-5">Instagram</a></p>
+                            <div class="line2">
+                                <div class="circle2">
+                                </div>
+                            </div>
+                            <p>© Copyright 2020.</p>
+                            <a>All Right Reserved by GSOT</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-5">
+                        <iframe class="ggmap"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1167943814653!2d106.64427641455502!3d10.802365892303937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752974fd410c2b%3A0xd7dd5f74c0918d3d!2zQ8O0bmcgdHkgcGjhuqduIG3hu4FtIEdTT1Q!5e0!3m2!1svi!2s!4v1594111516817!5m2!1svi!2s"
+                            width="100%" height="220px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                            tabindex="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        a
+        a
+        a
+        a
+        a
+        a
+        a
+        a
+        a
+
+        a
+        a
+        a
+        a
+        a
+        a
+        a
+        a
+        a
+
+        a
+        a
+        a
+        a
+        a
+        a
+        a
+        a
+
+        a
+        a
+        a
+        a
+        a
+        a
+        a
+        a
+
+        a
+        a
+        
+    </section>
+
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(document).scrollTop() > 50) {
+                    $(".navbar-fixed-top").css("background-color", "#099c53");
+                } else {
+                    $(".navbar-fixed-top").css("background-color", "transparent");
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+#dashboard-page .card-footer-text {
+  font-size: 1em;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  color: "white";
+}
+
+#dashboard-page .title {
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+/**
+  line chart
+*/
+#dashboard-page .line-chart-row {
+  margin-top: 1em;
+  border-radius: 1em;
+  /* width: 100%;*/
+  /* padding-right: 1.2em; */
+}
+
+#dashboard-page .line-chart-col {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background: #ffffff;
+  border-radius: 1em;
+  /* margin-left: 0.6em; */
+  }
+
+#dashboard-page .container {
+  border-radius: 1em;
+  background: #ffffff;
+  text-align: left;
+}

@@ -1,0 +1,19 @@
+#send-request-page .qr-code-wrapper {
+  border-width: 2px;
+  width: 200px;
+  height: 200px;
+}
+
+/* mobile */
+@media (max-width: 767px) {
+  #send-request-page .web-vision {
+    display: none;
+  }
+}
+
+/* web  */
+@media (min-width: 767px) {
+  #send-request-page .mobile-vision {
+    display: none;
+  }
+}

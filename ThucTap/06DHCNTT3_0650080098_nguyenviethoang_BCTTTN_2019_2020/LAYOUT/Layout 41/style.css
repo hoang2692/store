@@ -1,0 +1,492 @@
+.header {
+    position: relative;
+}
+
+body{
+    width: 1600px;
+    margin: auto;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.container{
+    padding: 0;
+}
+.row {
+    width: 1170px !important;
+}
+
+@font-face {
+    font-family: Raleway-Black;
+    src: url('./fonts/Raleway/static/Raleway-Black.ttf');
+}
+
+@font-face {
+    font-family: Raleway-bold;
+    src: url('./fonts/Raleway/static/Raleway-Bold.ttf');
+}
+
+@font-face {
+    font-family: Raleway-medium;
+    src: url('./fonts/Raleway/static/Raleway-Medium.ttf');
+}
+
+.header .BG {
+    background-image: url('./image/41c.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1047px;
+}
+
+.header .Top-Bar .logo {
+    font-family: Raleway-Black;
+    font-size: 30px;
+    font-weight: 600 !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+.header .Top-Bar .Top-Bar-Menu {
+    position: relative;
+    padding: 0;
+    cursor: pointer;
+}
+.header .Top-Bar .Top-Bar-Menu a {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    padding: 0;
+    font-weight: 600;
+    color: white !important;
+}
+
+.header .title h2 {
+    font-size: 46px !important;
+    font-family: Raleway-bold;
+    margin-top: 189px;
+    text-align: center;
+    color: white;
+}
+
+.header .text p {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: Raleway-medium;
+}
+
+.header .BTN {
+    margin: auto;
+    text-align: center;
+}
+
+.header .BTN button {
+    border: 1px solid black;
+    border-color: unset;
+    border-radius: 40px;
+    background-color: white;
+    width: 20%;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(63, 86, 241);
+    padding: 20px 50px;
+    font-family: Raleway-medium;
+}
+
+.header .img {
+    margin-top: 11px;
+    text-align: center;
+}
+
+.header .img img {
+    height: 489px;
+    width: 838px;
+}
+
+.Features {
+    margin-top: 55px;
+    padding-bottom: 25px;
+}
+
+.Features .title {
+    font-family: Raleway-Bold;
+    font-size: 46px;
+    text-align: center;
+}
+
+.Features .Features-1,
+.Features .Features-2,
+.Features .Features-3{
+    box-shadow: 0 0 57px 0 #a3b3b5;
+    border-radius: 10px;
+    width: 369px;
+    height: 320px;
+}
+
+.Features .card-body {
+    padding-top: 0;
+    padding-bottom: 54px !important;
+}
+.Features .card-title {
+    text-align: center;
+    font-size: 24px;
+    font-family: Raleway-Bold;
+    margin-top: 30px;
+    margin-bottom: 20px !important;
+}
+
+.Features .card-text {
+    text-align: center;
+    font-family: Raleway-medium;
+}
+
+.Features .card .card-img-top {
+    width: 50px;
+    height: 50px;
+    margin: 50px auto auto;
+}
+
+.More-Features .BG{
+    background-image: url('./image/section2-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1271px;
+}
+
+.More-Features .title {
+    font-size: 46px !important;
+    font-family: Raleway-Bold;
+    color: white;
+    padding-top: 49px;
+    margin-bottom: 20px;
+    height: 33px;
+}
+
+.More-Features .info {
+    padding-top: 48px;
+    font-size: 18px;
+    color: white;
+    font-family: Raleway-medium;
+    height: 102px;
+    margin-bottom: 45px;
+}
+
+.More-Features .card-body {
+    padding: 0;
+    padding-top: 19px;
+    padding-right: 30px;
+    padding-bottom: 38px;
+    margin-left: 30px;
+}
+
+.More-Features .card .card-img-top {
+    height: 50px;
+    width: 51px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.More-Features .card-title {
+    font-family: Raleway-Bold;
+    margin-bottom: 0;
+    padding-bottom: 13px;
+}
+
+.mr-30{
+    margin-right: 30px;
+}
+
+.More-Features .card-text {
+    font-family: Raleway-medium;
+}
+
+.More-Features .card {
+    height: 246px;
+    width: 270px;
+    border-radius: 7px;
+}
+
+.Feature-More .list-title {
+    font-size: 36px;
+    font-family: Raleway-Bold;
+    margin-bottom: 0;
+}
+
+.Feature-More .list-info ul {
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.Feature-More .list-info ul li {
+    list-style: none;
+    font-size: 24px !important;
+    margin-top: 20px;
+    font-family: Raleway-medium;
+}
+
+.Feature-More .list-info ul li:first-child {
+    margin-top: 0;
+}
+
+.Feature-More .list-info ul li i {
+    color: #244adf;
+    margin-right: 18px;
+    font-size: 18px !important;
+}
+
+.Feature-More .list-footer {
+    margin-top: 45px;
+    font-size: 24px !important;
+    font-family: Raleway-Bold;
+}
+
+.Feature-More .row-img {
+    margin-top: 60px;
+}
+
+.Feature-More .img-big {
+    margin-top: 136px;
+    width: 471px;
+    height: 497px;
+}
+
+.Feature-More .img-big img {
+    width: 470px;
+    height: 495px;
+}
+
+
+.Feature-More .img-small {
+    position: absolute;
+    right: 0;
+    top: 14px;
+    height: 255px;
+    width: 255px;
+}
+
+.Feature-More .img-small img {
+    width: 100%;
+}
+
+.More .img1 {
+    width: 300px;
+    height: 290px;
+}
+
+.More .img2 {
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    bottom: -40px;
+    width: 300px;
+    height: 290px;
+}
+
+.Blog .title {
+    text-align: center;
+    font-weight: 700;
+}
+
+.Blog .card {
+    border: none;
+}
+
+.Blog .card .card-body {
+    padding-left: 0;
+}
+
+.Blog .card .card-title {
+    font-weight: bold;
+}
+
+.Blog .card-body span {
+    position: absolute;
+    bottom: 80%;
+}
+
+.Blog .card-body span i {
+    color: #2532de;
+}
+
+.Blog .card .card-title {
+    margin-top: 20px;
+}
+
+.Blog .btn-viewmore {
+    width: 30%;
+    border: 1px solid black;
+    background-color: #2532de;
+    margin: auto;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 65px;
+}
+
+.Blog .btn-viewmore button {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer .message input {
+    display: block;
+    padding-bottom: 120px !important;
+
+}
+
+.footer .form-group input {
+    border: none;
+}
+
+.footer .form-group input {
+    box-shadow: 5px 5px 10px 10px #eeeeee;
+    border-radius: 10px;
+}
+
+.footer .form-group textarea {
+    box-shadow: 5px 5px 10px 10px #eeeeee;
+    border-radius: 10px;
+}
+
+.footer .map iframe {
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.footer .btn-submit {
+    width: 30%;
+    border: 1px solid black;
+    background-color: #2532de;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 65px;
+    color: white;
+    font-weight: 600;
+}
+
+.footer .container-fluid {
+    background-image: url('./image/bot.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.footer .logo h4 {
+    font-weight: 600 !important;
+    color: white !important;
+    font-weight: 800 !important;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.footer .end {
+    text-align: right;
+    padding-top: 90px;
+    color: white;
+}
+
+.footer .icon {
+    color: white;
+    padding-top: 90px;
+}
+
+.footer .icon i {
+    margin-left: 9px;
+}
+
+@media screen and (max-width: 2500px) {}
+
+@media screen and (max-width: 1024px) {
+    .Feature-More .img-small {
+        right: -15px !important;
+    }
+    .header .BTN button {
+        width: unset;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Feature-More .img-big {
+        width: unset;
+    }
+    .Feature-More .img-big img {
+        width: 100%;
+        height: 300px;
+        margin-top: 91px;
+    }
+    .Feature-More .img-small {
+        width: unset;
+        left: 146px;
+        top: 1px;
+    }
+    .More .img1 img {
+        width: unset !important;
+    }
+    .More .img2 {
+        right: -95px !important;
+        bottom: -25px !important;
+    }
+    .More .img2 img {
+        width: unset !important;
+    }
+    .More .More-row-img {
+        margin-top: 10px;
+    }
+    .More {
+        padding-bottom: 10px !important;
+    }
+    .header .BTN button {
+        width: unset;
+    }
+}
+@media screen and (max-width: 576px) {
+    .Feature-More .img-big {
+        width: unset;
+    }
+
+    .Feature-More .img-small {
+        width: unset;
+        top: -25px;
+        right: 15px !important;
+    }
+
+    .Feature-More .row-img {
+        margin-top: 100px;
+    }
+
+    .More .img1 {
+        width: unset;
+    }
+    .More .img1 img {}
+    .More .img2 {
+        width: unset;
+        right: 15px !important;
+    }
+    .More .img2 img {}
+    .Blog .btn-viewmore {
+        width: 50% !important;
+    }
+    .footer .btn-submit {
+        width: 50% !important;
+        margin-left: 80px;
+        margin-bottom: 40px;
+    }
+    .footer .title {
+        text-align: center;
+    }
+    .More-Features .mt-30,.Features .mt-30 {
+        margin-top: 30px;
+    }
+    .header .BTN button{
+        width: unset;
+    }
+    .header .title h2 {
+        margin-top: 20px !important;
+    }
+}

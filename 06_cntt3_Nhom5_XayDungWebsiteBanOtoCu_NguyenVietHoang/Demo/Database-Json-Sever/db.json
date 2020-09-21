@@ -1,0 +1,35 @@
+{
+  "sadan": [],
+  "SUVTOYOTAS": [],
+  "DaDung": [],
+  "saloons": [
+    {
+      "name": "Iphone",
+      "price": "100000",
+      "id": 5
+    }
+  ],
+  "SUV2": [
+    {
+      "name": "SUV156",
+      "price": "1900000000",
+      "id": 1
+    }
+  ],
+  "coope": [],
+  "aventador": [
+    {
+      "name": "Iphone xq",
+      "price": "1000",
+      "id": 2
+    }
+  ],
+  "SUV3": [
+    {
+      "name": "Iphone",
+      "price": "1000",
+      "id": 1
+    }
+  ],
+  "harucan": []
+}

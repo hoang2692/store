@@ -1,0 +1,110 @@
+.{
+	margin: 0;
+	padding: 0;
+}
+.bd{
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+.label{
+	position: absolute;
+	z-index: 9999;
+	border-radius: 5px;
+	background-color: blue;
+	margin-left: 620px;
+	margin-top: 277px;
+	padding: 1px 10px;
+
+}
+.label h1{
+	font-size: 20px;
+	padding: 1px 10px;
+}
+#carouselExampleIndicators ul li{
+	cursor: pointer;
+	width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+#carousel-example-2 ol{
+  display: flex;
+  position: absolute;
+  z-index: 999;
+  left: 40px;
+  top: 100px;
+}
+#carousel-example-2 ol li{
+   width: 55px;
+   height: 2px;
+   list-style: none;
+   cursor: pointer;
+}
+
+ol .cl{
+	position: absolute;
+}
+.btnv{
+	color: black;
+}
+#carouselExampleIndicators ul{
+	margin-left: 600px;
+}
+.ct{
+	text-align: center;
+}
+.banner h3{
+	color: orange;
+}
+.ct2{
+	color: orange;
+}
+#btn3{
+	float: right;
+}
+.ct3{
+	color: blue;
+}
+.wwo{
+	text-align: center;
+	color: blue;
+}
+.info p{
+	text-align: center;
+	margin-left:80px;
+	margin-right: 80px;
+	font-weight: bold;
+}
+.sizeslide{
+	width: 280px;
+	height: 180px;
+	margin: auto;
+	align-items: center;
+	width: 300px;
+	height: 150px;
+	overflow: hidden;
+}
+.carousel-caption h3{
+	color: orange;
+	margin-top:-100px;
+}
+.sizeslide .ces-ind{
+	margin-left: 10px;
+	margin-top: 33px; 
+}
+.sizeslide .ces-ind li{
+	background-color: orange;
+	height: 15px;
+	width: 50px;
+}
+.sizeslide ol li button{
+	border-radius: 50%;
+}
+.collapse ul li button{
+ 	border: none;
+}
+.crad-bg{
+	background-color: #808080;
+}
+h6{
+	color: orange;
+}

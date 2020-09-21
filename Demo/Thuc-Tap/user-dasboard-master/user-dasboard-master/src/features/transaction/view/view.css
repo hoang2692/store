@@ -1,0 +1,64 @@
+#transaction-page .btn-add {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+}
+#transaction-page .btn-link {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+  color: blue !important;
+}
+#transaction-page .container {
+  border-radius: 1em;
+  background: #ffffff;
+  text-align: left;
+}
+#transaction-page .btn-group button {
+  margin: 0 5px 0 5px;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+}
+#transaction-page .btn-group button:first-child {
+  color: rgb(28, 28, 161);
+}
+#transaction-page .btn-group button:last-child {
+  color: rgb(170, 19, 19);
+}
+
+#transaction-page .icon-type {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#transaction-page .select-options {
+  width: 10em !important;
+}
+/* mobile */
+@media (max-width: 767px) {
+  #transaction-page .web-table {
+    display: none;
+  }
+}
+
+/* web  */
+@media (min-width: 767px) {
+  #transaction-page .mobile-table {
+    display: none;
+  }
+}
+
+
+#transaction-page .ant-card .ant-card-body {
+  padding: 0 !important;
+}
+#transaction-page .ant-card .ant-card-body {
+  padding: 0 !important;
+}
+#transaction-page  .ant-pagination {
+    padding: 0 1em;
+}

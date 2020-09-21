@@ -1,0 +1,368 @@
+
+
+@font-face {
+    font-family:sanfran-semibold ;
+    src: url(../Font-family/SFUIDisplay-Semibold.otf);
+}
+@font-face{
+    font-family:sanfran-regular ;
+    src: url(../Font-family/SFUIDisplay-Regular.otf);
+}
+@font-face{
+    font-family:sanfraN-bold ;
+    src: url(../Font-family/SFUIDisplay-Bold.ttf);
+}
+@font-face {
+    font-family:sanfraN-medium ;
+    src: url(../Font-family/SFUIDisplay-Medium.otf);
+}
+.TMS .text-title{
+    margin-top: 94px;
+    font-size: 27px;
+    font-family:sanfran-semibold ;
+    color: #F15A22;
+    margin-bottom: 7px !important;
+}
+.TMS .boder{
+    border: 2px solid #FD9701;
+    width: 56px;
+}
+.TMS .text{
+    width: 500px;
+    text-align: justify;
+    color: #58595B;
+    font-size: 16px;
+    font-family:sanfran-regular ;
+    margin-top: 12.5px;
+    margin-bottom: 37px !important;
+}
+.TMS .btn{
+    height: 33px;
+    font-family: sanfraN-bold;
+    color: #F15A22;
+    font-size: 17px;
+    border-color: red;
+    width:143px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-color: linear-gradient(to left,#FF3600,white);
+    margin-left: 15px;
+}
+.TMS .button-img{
+    position: absolute;
+    z-index: 1;
+    margin-top: -36px;
+}
+.TMS  .button{
+    width:143px;
+    height: 37px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border:none;
+    background-image: linear-gradient(to left,#F15A22,white);
+    margin-left: 15px;
+}
+.TMS  .button-upper{
+    outline: none;
+    width:140px;
+    height: 35px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: white;
+    border:none;
+    position:absolute;
+    margin-left:-141px;
+    margin-top:1px;
+    
+}
+.TMS .font-button-p5{
+    font-family:sanfraN-bold ;
+    font-size: 17px;
+    color: #F15A22;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.TMS .img1{
+    top:115px;
+    left: 64px;
+}
+
+.TMS .img1 img{
+    width: 100%;
+    height: 293px;
+}
+
+.TMS .img2{
+    width: 272px !important;
+    top:88px;
+    left: 194px;
+}
+
+.TMS .img2{
+    width: 100%;
+    height: 367px;
+}
+
+
+.TMS .row{
+    padding-top: 46px;
+}
+.CMS{
+    background-color: #EAEAEA;
+    padding-bottom: 49px;
+}
+.CMS .img1{
+    margin-top: 34px;
+    margin-bottom: 49px;
+    width: 540px;
+}
+
+.CMS .img1 img{
+    width: 100%;
+    margin-left: -55px;
+}
+.CMS .text-title{
+    font-size: 27px;
+    font-family:sanfran-semibold ;
+    color: #F15A22;
+     margin-top: 26px;
+     margin-bottom: 7px !important;
+}
+.CMS .boder{
+    border: 2px solid #FD9701;
+    width: 56px;
+    margin-bottom: 24px !important;
+}
+.CMS .text{
+    text-indent: 25px;
+    color: #58595B;
+    font-size: 16px;
+    font-family:sanfraN-medium ;
+    margin-bottom: 23px !important;
+}
+.CMS .text-p{  
+    color: #58595B;
+    font-size: 16px;
+    font-family:sanfran-regular ;
+}
+.CMS .btn{
+    height: 33px;
+    font-family: sanfraN-bold;
+    color: #F15A22;
+    font-size: 17px;
+    border-color: red;
+    width:143px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-color: linear-gradient(to left,#FF3600,white);
+    margin-left: 15px;
+}
+.CMS .button-img{
+    position: absolute;
+    z-index: 1;
+    margin-top: -36px;
+}
+.CMS  .button{
+    width:143px;
+    height: 37px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border:none;
+    background-image: linear-gradient(to left,#F15A22, #EAEAEA);
+    margin-left: 15px;
+    border-left: none;
+    margin-top: 21px;
+}
+.CMS  .button-upper{
+    outline: none;
+    width:140px;
+    height: 35px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #EAEAEA;
+    border:none;
+    position:absolute;
+    margin-left:-141px;
+    margin-top: 22px;
+    
+}
+.CMS .font-button-p5{
+    font-family:sanfraN-bold ;
+    font-size: 17px;
+    color: #F15A22;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.VIETDATA .text-title{
+    font-size: 27px;
+    font-family:sanfran-semibold ;
+    color: #F15A22;
+    margin-bottom: 7px !important;
+}
+.VIETDATA .boder{
+    border: 2px solid #FD9701;
+    width: 56px;
+}
+.VIETDATA .text{
+    text-indent: 1rem;
+    width: 445px;
+    text-align: justify;
+    color: #58595B;
+    font-size: 16px;
+    font-family:sanfran-regular ;
+    margin-top: 12.5px;
+    margin-bottom: 37px !important;
+}
+.VIETDATA .btn{
+    height: 33px;
+    font-family: sanfraN-bold;
+    color: #F15A22;
+    font-size: 17px;
+    border-color: red;
+    width:143px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-color: linear-gradient(to left,#FF3600,white);
+    margin-left: 15px;
+}
+.VIETDATA .button-img{
+    position: absolute;
+    z-index: 1;
+    margin-top: -36px;
+}
+.VIETDATA  .button{
+    width:143px;
+    height: 37px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border:none;
+    background-image: linear-gradient(to left,#F15A22,white);
+    margin-left: 15px;
+}
+.VIETDATA  .button-upper{
+    outline: none;
+    width:140px;
+    height: 35px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: white;
+    border:none;
+    position:absolute;
+    margin-left:-141px;
+    margin-top:1px;
+    
+}
+.VIETDATA .font-button-p5{
+    font-family:sanfraN-bold ;
+    font-size: 17px;
+    color: #F15A22;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+.VIETDATA .row{
+    padding-top: 46px;
+}
+.VIETDATA .img-circle{
+    margin-top: 50px;
+    height: 310px;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 2500px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+    .CMS .img1 {
+        width: 470px !important;
+    }
+    .CMS{
+        margin-top: 98px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .TMS .text {
+        text-indent: 55px;
+        width: 325px;
+    }
+    .TMS .img2 {
+        left: 96px;
+    }
+    .TMS .img1 {
+        left: -5px;
+    }
+    .CMS{
+        margin-top: 98px;
+    }
+    .CMS .img1 {
+        margin-top: 200px !important;
+    }
+    .CMS .img1 {
+        width: 370px !important;
+    }
+    .VIETDATA .text{
+        width: 340px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .TMS .text {
+        text-indent: 55px;
+        width: 100%;
+    }
+    
+    .TMS .text-title{
+        text-align: center;
+    }
+
+    .TMS .boder{
+        margin: auto;
+    }
+
+    .circle{
+        width: 282px;
+    }
+
+    .circle img{
+        width: 100%;
+    }
+
+    .TMS .img1{
+        width: 200px;
+        left: 5px;
+    }
+
+    .TMS .img2{
+        width: 250px;
+        left: 70px;
+    }
+    .CMS{
+        margin-top: 98px;
+    }
+    .CMS .img1{
+        width: 100% !important;
+    }
+
+    .CMS .text-title{
+        text-align: center;
+    }
+
+    .CMS .boder{
+        margin: auto;
+    }
+
+    .VIETDATA .text-title{
+        text-align: center;
+    }
+
+    .VIETDATA .boder{
+        margin: auto;
+    }
+
+    .VIETDATA .text{
+        width: 100%;
+    }
+}

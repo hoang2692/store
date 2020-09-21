@@ -1,0 +1,15 @@
+.contact ul{
+    list-style: none;
+    position: fixed;
+    top: 300px
+}
+
+.contact ul li{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact ul li i{
+    font-size: 20px;
+}

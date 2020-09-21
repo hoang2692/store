@@ -1,0 +1,81 @@
+{
+    "toyotas":
+        {
+            "sadan": [
+                {
+                    "id": 1,
+                    "name": "sadan1",
+					"price": "1900000000"
+                }
+            ],
+            "SUV": [
+                {
+                    "id": 1,
+                    "name": "SUV1",
+					"price": "1900000000"
+                },
+				{
+                    "id": 2,
+                    "name": "SUV2",
+					"price": "1500000000"
+                }
+            ],
+			"DaDung": [
+                {
+                    "id": 1,
+                    "name": "DaDung1",
+					"price": "1900000000"
+                }
+            ]
+        },
+    "mercedes": [
+        {
+            "saloons": [
+                {
+                    "id": 1,
+                    "name": "saloons1",
+					"price": "1900000000"
+                }
+            ],
+			"SUV": [
+                {
+                    "id": 1,
+                    "name": "SUVM1",
+					"price": "1900000000"
+                }
+            ],
+			"coope": [
+                {
+                    "id": 1,
+                    "name": "coope1",
+					"price": "1900000000"
+                }
+            ]
+        }
+    ],
+    "Lamborghini": [
+        {
+            "aventador": [
+                {
+                    "id": 1,
+                    "name": "aventador1",
+					"price": "1900000000"
+                }
+            ],
+			"SUV": [
+                {
+                    "id": 1,
+                    "name": "SUV1",
+					"price": "1900000000"
+                }
+            ],
+			"harucan": [
+                {
+                    "id": 1,
+                    "name": "harucan1",
+					"price": "1900000000"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+export const routes = {
+  login: "/login",
+  register: "/register",
+  verifyEmail: "/verify-email",
+  resetPassword: "/reset-password",
+  landing: "/landing",
+  home: "/home",
+  dashboard: "/home/dashboard",
+  transactions: "/home/transactions",
+  settings: "/home/settings",
+  apiSetting: "/home/api-settings",
+  supports: "/home/supports",
+  profile: "/home/profile",
+  sendRequest: "/home/send-request",
+};

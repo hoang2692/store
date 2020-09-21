@@ -1,0 +1,31 @@
+.form-group{
+    height: 200px;
+    width: 500px;
+    margin: auto;
+    margin-top: 300px !important;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+  
+}
+
+input{
+
+    width: 100px !important;
+    height: 70px !important;
+    border-radius: 40px !important;
+    animation: reveal 1s forwards;
+}
+
+
+
+@keyframes reveal {
+    from {
+      clip-path: inset(0 0 0 100%);
+    }
+    to {
+      clip-path: inset(0 0 0 0);
+    }
+  }

@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontawesome/fontawesome-free-5.13.1-web/css/all.css">
+    <link rel="stylesheet" href="./fontawesome/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="./css/project.css">
+</head>
+
+<body>
+    <!-- Popover Ghim -->
+    <div id="Popover-Ghim" style="display:none">
+        <div class="popup-Gim" id="popup-Gim">
+            <div class="content">
+                <div class="title">
+                    <div class="text">Ghim này lấy cảm hứng từ hoạt động gần đây của bạn</div>
+                </div>
+                <hr>
+                <div class="list">
+                    <div class="item">
+                        <p>Ẩn Ghim</p>
+                    </div>
+                    <div class="item">
+                        <p>Tải xuống hình ảnh</p>
+                    </div>
+                    <div class="item">
+                        <p>Báo cáo Ghim</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Popover Ghim 2 -->
+    <div id="popup-cmt" style="display:none">
+        <div class="popup-Gim" id="popup-Gim2">
+            <div class="content">
+                <div class="title">
+                    <div class="text">Ghim này lấy cảm hứng từ hoạt động gần đây của bạn</div>
+                </div>
+                <hr>
+                <div class="list">
+                    <div class="item">
+                        <p>Ẩn Ghim2</p>
+                    </div>
+                    <div class="item">
+                        <p>Tải xuống hình ảnh</p>
+                    </div>
+                    <div class="item">
+                        <p>Báo cáo Ghim</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Popover Share--> 
+    <div id="Popover-Share" style="display:none">
+        <div class="popup-share" id="popup-Share">
+            <div class="content">
+                <div class="title">
+                    <div class="text">
+                        Gửi Ghim này
+                    </div>
+                </div>
+                <div class="row icon-social">
+                    <div class="col-6 col-md-3 whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                        <p>WhatsApp</p>
+                    </div>
+                    <div class="col-6 col-md-3 facebook">
+                        <i class="fab fa-facebook-f"></i>
+                        <p>Facebook</p>
+                    </div>
+                    <div class="col-6 col-md-3 twitter">
+                        <i class="fab fa-twitter"></i>
+                        <p>Twitter</p>
+                    </div>
+                    <div class="col-6 col-md-3 email">
+                        <i class="fas fa-envelope"></i>
+                        <p>Email</p>
+                    </div>
+                    <div class="col-6 col-md-3 share">
+                        <i class="fas fa-link"></i>
+                        <p>Sao chép liên kết</p>
+                    </div>
+                </div>
+                <div class="input-search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="&#xf002;    Tên hoặc email" id="input-share1" onkeyup="changeinput()">
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="scroll">
+                        <div class="list-item">
+                            <div class="BG-hover">
+                                <div class="item">
+                                    <div class="avatar">
+                                        <img class="w-100" src="./images/xuat file2-39.png">
+                                    </div>
+                                    <div class="profile">
+                                        <div class="name">Your Name</div>
+                                        <div class="subname">YourName</div>
+                                    </div>
+                                    <div class="button-send">
+                                        <button type="button" class="btn btn-send">Gửi</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="BG-hover">
+                                <div class="item">
+                                    <div class="avatar">
+                                        <img class="w-100" src="./images/xuat file2-39.png">
+                                    </div>
+                                    <div class="profile">
+                                        <div class="name">Your Name</div>
+                                        <div class="subname">YourName</div>
+                                    </div>
+                                    <div class="button-send">
+                                        <button type="button" class="btn btn-send">Gửi</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="BG-hover">
+                                <div class="item">
+                                    <div class="avatar">
+                                        <img class="w-100" src="./images/xuat file2-39.png">
+                                    </div>
+                                    <div class="profile">
+                                        <div class="name">Your Name</div>
+                                        <div class="subname">YourName</div>
+                                    </div>
+                                    <div class="button-send">
+                                        <button type="button" class="btn btn-send">Gửi</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="BG-hover">
+                                <div class="item">
+                                    <div class="avatar">
+                                        <img class="w-100" src="./images/xuat file2-39.png">
+                                    </div>
+                                    <div class="profile">
+                                        <div class="name">Your Name</div>
+                                        <div class="subname">YourName</div>
+                                    </div>
+                                    <div class="button-send">
+                                        <button type="button" class="btn btn-send">Gửi</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Popover Share2-->
+    <div id="popup-Share2" style="display:none">
+        <div class="popup-share" id="popup-Share">
+            <div class="content">
+                <div class="title">
+                    <div class="text">
+                        Gửi Ghim này2
+                    </div>
+                </div>
+                <div class="row icon-social">
+                    <div class="col-6 col-md-3 whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                        <p>WhatsApp</p>
+                    </div>
+                    <div class="col-6 col-md-3 facebook">
+                        <i class="fab fa-facebook-f"></i>
+                        <p>Facebook</p>
+                    </div>
+                    <div class="col-6 col-md-3 twitter">
+                        <i class="fab fa-twitter"></i>
+                        <p>Twitter</p>
+                    </div>
+                    <div class="col-6 col-md-3 email">
+                        <i class="fas fa-envelope"></i>
+                        <p>Email</p>
+                    </div>
+                    <div class="col-6 col-md-3 share">
+                        <i class="fas fa-link"></i>
+                        <p>Sao chép liên kết</p>
+                    </div>
+                </div>
+                <div class="input-search">
+                    <div class="form-group">
+                        <input id="input-share" type="text" class="form-control"
+                            placeholder="&#xf002;    Tên hoặc email">
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="scroll">
+                        <div class="list-item">
+                            <div class="BG-hover">
+                                <div class="item">
+                                    <div class="avatar">
+                                        <img class="w-100" src="./images/xuat file2-39.png">
+                                    </div>
+                                    <div class="profile">
+                                        <div class="name">Your Name</div>
+                                        <div class="subname">YourName</div>
+                                    </div>
+                                    <div class="button-send">
+                                        <button type="button" class="btn btn-send">Gửi</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="BG-hover">
+                                <div class="item">
+                                    <div class="avatar">
+                                        <img class="w-100" src="./images/xuat file2-39.png">
+                                    </div>
+                                    <div class="profile">
+                                        <div class="name">Your Name</div>
+                                        <div class="subname">YourName</div>
+                                    </div>
+                                    <div class="button-send">
+                                        <button type="button" class="btn btn-send">Gửi</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="BG-hover">
+                                <div class="item">
+                                    <div class="avatar">
+                                        <img class="w-100" src="./images/xuat file2-39.png">
+                                    </div>
+                                    <div class="profile">
+                                        <div class="name">Your Name</div>
+                                        <div class="subname">YourName</div>
+                                    </div>
+                                    <div class="button-send">
+                                        <button type="button" class="btn btn-send">Gửi</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="BG-hover">
+                                <div class="item">
+                                    <div class="avatar">
+                                        <img class="w-100" src="./images/xuat file2-39.png">
+                                    </div>
+                                    <div class="profile">
+                                        <div class="name">Your Name</div>
+                                        <div class="subname">YourName</div>
+                                    </div>
+                                    <div class="button-send">
+                                        <button type="button" class="btn btn-send">Gửi</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- List Item -->
+    <div class="Body">
+        <div class="row">
+            <div class="col-18">
+                <div class="Item">
+                    <img class="image" src="./images/viber-image-2019-08-06-10-40-38-jpg-20190807145944LO3qbinQdG.jpg">
+                    <div class="hover" id="hover">
+                        <button type="button" class="btn btn-primary icon">Lưu</button>
+                        <button type="button" href="#" class="btn icon-upload Btn-Popover" data-toggle="popover"
+                        data-html="true" title="" data-popover-content="#Popover-Share"><i class="fas fa-upload"></i></button>
+                        <button type="button" href="#" class="btn icon-read-more Btn-Popover" data-toggle="popover"
+                            data-html="true" title="" data-popover-content="#Popover-Ghim"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-18">
+                <div class="Item">
+                    <img class="image" src="./images/hinhCao.jpg">
+                    <div class="hover" id="hover">
+                        <button type="button" class="btn btn-primary icon">Lưu</button>
+                        <button type="button" href="#" class="btn icon-upload Btn-Popover" data-toggle="popover"
+                        data-html="true" title="" data-popover-content="#Popover-Share"><i class="fas fa-upload"></i></button>
+                        <button type="button"  href="#" class="btn icon-read-more Btn-Popover" data-toggle="popover"
+                            data-html="true" title="" data-popover-content="#Popover-Ghim"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-18">
+                <div class="Item">
+                    <img class="image" src="./images/viber-image-2019-08-06-10-40-38-jpg-20190807145944LO3qbinQdG.jpg">
+                    <div class="hover" id="hover">
+                        <button type="button" class="btn btn-primary icon">Lưu</button>
+                        <button type="button" href="#" class="btn icon-upload Btn-Popover" data-toggle="popover"
+                        data-html="true" title="" data-popover-content="#Popover-Share"><i class="fas fa-upload"></i></button>
+                        <button type="button" href="#" class="btn icon-read-more Btn-Popover" data-toggle="popover"
+                            data-html="true" title="" data-popover-content="#Popover-Ghim"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-18">
+                <div class="Item">
+                    <img class="image" src="./images/hinhCao.jpg">
+                    <div class="hover" id="hover">
+                        <button type="button" class="btn btn-primary icon">Lưu</button>
+                        <button type="button" href="#" class="btn icon-upload Btn-Popover" data-toggle="popover"
+                        data-html="true" title="" data-popover-content="#Popover-Share"><i class="fas fa-upload"></i></button>
+                        <button type="button"  href="#" class="btn icon-read-more Btn-Popover" data-toggle="popover"
+                            data-html="true" title="" data-popover-content="#Popover-Ghim"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-18">
+                <div class="Item">
+                    <img class="image" src="./images/viber-image-2019-08-06-10-40-38-jpg-20190807145944LO3qbinQdG.jpg">
+                    <div class="hover" id="hover">
+                        <button type="button" class="btn btn-primary icon">Lưu</button>
+                        <button type="button" href="#" class="btn icon-upload Btn-Popover" data-toggle="popover"
+                        data-html="true" title="" data-popover-content="#Popover-Share"><i class="fas fa-upload"></i></button>
+                        <button type="button" href="#" class="btn icon-read-more Btn-Popover" data-toggle="popover"
+                            data-html="true" title="" data-popover-content="#Popover-Ghim"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-18">
+                <div class="Item">
+                    <img class="image" src="./images/hinhCao.jpg">
+                    <div class="hover" id="hover">
+                        <button type="button" class="btn btn-primary icon">Lưu</button>
+                        <button type="button" href="#" class="btn icon-upload Btn-Popover" data-toggle="popover"
+                        data-html="true" title="" data-popover-content="#Popover-Share"><i class="fas fa-upload"></i></button>
+                        <button type="button"  href="#" class="btn icon-read-more Btn-Popover" data-toggle="popover"
+                            data-html="true" title="" data-popover-content="#Popover-Ghim"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-18">
+                <div class="Item">
+                    <img class="image" src="./images/viber-image-2019-08-06-10-40-38-jpg-20190807145944LO3qbinQdG.jpg">
+                    <div class="hover" id="hover">
+                        <button type="button" class="btn btn-primary icon">Lưu</button>
+                        <button type="button" href="#" class="btn icon-upload Btn-Popover" data-toggle="popover"
+                        data-html="true" title="" data-popover-content="#Popover-Share"><i class="fas fa-upload"></i></button>
+                        <button type="button" href="#" class="btn icon-read-more Btn-Popover" data-toggle="popover"
+                            data-html="true" title="" data-popover-content="#Popover-Ghim"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-18">
+                <div class="Item">
+                    <img class="image" src="./images/hinhCao.jpg">
+                    <div class="hover" id="hover">
+                        <button type="button" class="btn btn-primary icon">Lưu</button>
+                        <button type="button" href="#" class="btn icon-upload Btn-Popover" data-toggle="popover"
+                        data-html="true" title="" data-popover-content="#Popover-Share"><i class="fas fa-upload"></i></button>
+                        <button type="button"  href="#" class="btn icon-read-more Btn-Popover" data-toggle="popover"
+                            data-html="true" title="" data-popover-content="#Popover-Ghim"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-18">
+                <div class="Item">
+                    <img class="image" src="./images/viber-image-2019-08-06-10-40-38-jpg-20190807145944LO3qbinQdG.jpg">
+                    <div class="hover" id="hover">
+                        <button type="button" class="btn btn-primary icon">Lưu</button>
+                        <button type="button" href="#" class="btn icon-upload Btn-Popover" data-toggle="popover"
+                        data-html="true" title="" data-popover-content="#Popover-Share"><i class="fas fa-upload"></i></button>
+                        <button type="button" href="#" class="btn icon-read-more Btn-Popover" data-toggle="popover"
+                            data-html="true" title="" data-popover-content="#Popover-Ghim"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-18">
+                <div class="Item">
+                    <img class="image" src="./images/hinhCao.jpg">
+                    <div class="hover" id="hover">
+                        <button type="button" class="btn btn-primary icon">Lưu</button>
+                        <button type="button" href="#" class="btn icon-upload Btn-Popover" data-toggle="popover"
+                        data-html="true" title="" data-popover-content="#Popover-Share"><i class="fas fa-upload"></i></button>
+                        <button type="button"  href="#" class="btn icon-read-more Btn-Popover" data-toggle="popover"
+                            data-html="true" title="" data-popover-content="#Popover-Ghim"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-18">
+                <div class="Item">
+                    <img class="image" src="./images/viber-image-2019-08-06-10-40-38-jpg-20190807145944LO3qbinQdG.jpg">
+                    <div class="hover" id="hover">
+                        <button type="button" class="btn btn-primary icon">Lưu</button>
+                        <button type="button" href="#" class="btn icon-upload Btn-Popover" data-toggle="popover"
+                        data-html="true" title="" data-popover-content="#Popover-Share"><i class="fas fa-upload"></i></button>
+                        <button type="button" href="#" class="btn icon-read-more Btn-Popover" data-toggle="popover"
+                            data-html="true" title="" data-popover-content="#Popover-Ghim"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-18">
+                <div class="Item">
+                    <img class="image" src="./images/hinhCao.jpg">
+                    <div class="hover" id="hover">
+                        <button type="button" class="btn btn-primary icon">Lưu</button>
+                        <button type="button" href="#" class="btn icon-upload Btn-Popover" data-toggle="popover"
+                        data-html="true" title="" data-popover-content="#Popover-Share"><i class="fas fa-upload"></i></button>
+                        <button type="button"  href="#" class="btn icon-read-more Btn-Popover" data-toggle="popover"
+                            data-html="true" title="" data-popover-content="#Popover-Ghim"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-18">
+                <div class="Item">
+                    <img class="image" src="./images/viber-image-2019-08-06-10-40-38-jpg-20190807145944LO3qbinQdG.jpg">
+                    <div class="hover" id="hover">
+                        <button type="button" class="btn btn-primary icon">Lưu</button>
+                        <button type="button" href="#" class="btn icon-upload Btn-Popover" data-toggle="popover"
+                        data-html="true" title="" data-popover-content="#Popover-Share"><i class="fas fa-upload"></i></button>
+                        <button type="button" href="#" class="btn icon-read-more Btn-Popover" data-toggle="popover"
+                            data-html="true" title="" data-popover-content="#Popover-Ghim"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-18">
+                <div class="Item">
+                    <img class="image" src="./images/hinhCao.jpg">
+                    <div class="hover" id="hover">
+                        <button type="button" class="btn btn-primary icon">Lưu</button>
+                        <button type="button" href="#" class="btn icon-upload Btn-Popover" data-toggle="popover"
+                        data-html="true" title="" data-popover-content="#Popover-Share"><i class="fas fa-upload"></i></button>
+                        <button type="button"  href="#" class="btn icon-read-more Btn-Popover" data-toggle="popover"
+                            data-html="true" title="" data-popover-content="#Popover-Ghim"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-18">
+                <div class="Item">
+                    <img class="image" src="./images/viber-image-2019-08-06-10-40-38-jpg-20190807145944LO3qbinQdG.jpg">
+                    <div class="hover" id="hover">
+                        <button type="button" class="btn btn-primary icon">Lưu</button>
+                        <button type="button" href="#" class="btn icon-upload Btn-Popover" data-toggle="popover"
+                        data-html="true" title="" data-popover-content="#Popover-Share"><i class="fas fa-upload"></i></button>
+                        <button type="button" href="#" class="btn icon-read-more Btn-Popover" data-toggle="popover"
+                            data-html="true" title="" data-popover-content="#Popover-Ghim"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-18">
+                <div class="Item">
+                    <img class="image" src="./images/hinhCao.jpg">
+                    <div class="hover" id="hover">
+                        <button type="button" class="btn btn-primary icon">Lưu</button>
+                        <button type="button" href="#" class="btn icon-upload Btn-Popover" data-toggle="popover"
+                        data-html="true" title="" data-popover-content="#Popover-Share"><i class="fas fa-upload"></i></button>
+                        <button type="button"  href="#" class="btn icon-read-more Btn-Popover" data-toggle="popover"
+                            data-html="true" title="" data-popover-content="#Popover-Ghim"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-18">
+                <div class="Item">
+                    <img class="image" src="./images/viber-image-2019-08-06-10-40-38-jpg-20190807145944LO3qbinQdG.jpg">
+                    <div class="hover" id="hover">
+                        <button type="button" class="btn btn-primary icon">Lưu</button>
+                        <button type="button" href="#" class="btn icon-upload Btn-Popover" data-toggle="popover"
+                        data-html="true" title="" data-popover-content="#Popover-Share"><i class="fas fa-upload"></i></button>
+                        <button type="button" href="#" class="btn icon-read-more Btn-Popover" data-toggle="popover"
+                            data-html="true" title="" data-popover-content="#Popover-Ghim"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-18">
+                <div class="Item">
+                    <img class="image" src="./images/hinhCao.jpg">
+                    <div class="hover" id="hover">
+                        <button type="button" class="btn btn-primary icon">Lưu</button>
+                        <button type="button" href="#" class="btn icon-upload Btn-Popover" data-toggle="popover"
+                        data-html="true" title="" data-popover-content="#Popover-Share"><i class="fas fa-upload"></i></button>
+                        <button type="button"  href="#" class="btn icon-read-more Btn-Popover" data-toggle="popover"
+                            data-html="true" title="" data-popover-content="#Popover-Ghim"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-18">
+                <div class="Item">
+                    <img class="image" src="./images/viber-image-2019-08-06-10-40-38-jpg-20190807145944LO3qbinQdG.jpg">
+                    <div class="hover" id="hover">
+                        <button type="button" class="btn btn-primary icon">Lưu</button>
+                        <button type="button" href="#" class="btn icon-upload Btn-Popover" data-toggle="popover"
+                        data-html="true" title="" data-popover-content="#Popover-Share"><i class="fas fa-upload"></i></button>
+                        <button type="button" href="#" class="btn icon-read-more Btn-Popover" data-toggle="popover"
+                            data-html="true" title="" data-popover-content="#Popover-Ghim"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-18">
+                <div class="Item">
+                    <img class="image" src="./images/hinhCao.jpg">
+                    <div class="hover" id="hover">
+                        <button type="button" class="btn btn-primary icon">Lưu</button>
+                        <button type="button" href="#" class="btn icon-upload Btn-Popover" data-toggle="popover"
+                        data-html="true" title="" data-popover-content="#Popover-Share"><i class="fas fa-upload"></i></button>
+                        <button type="button"  href="#" class="btn icon-read-more Btn-Popover" data-toggle="popover"
+                            data-html="true" title="" data-popover-content="#Popover-Ghim"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-18">
+                <div class="Item">
+                    <img class="image" src="./images/viber-image-2019-08-06-10-40-38-jpg-20190807145944LO3qbinQdG.jpg">
+                    <div class="hover" id="hover">
+                        <button type="button" class="btn btn-primary icon">Lưu</button>
+                        <button type="button" href="#" class="btn icon-upload Btn-Popover" data-toggle="popover"
+                        data-html="true" title="" data-popover-content="#Popover-Share"><i class="fas fa-upload"></i></button>
+                        <button type="button" href="#" class="btn icon-read-more Btn-Popover" data-toggle="popover"
+                            data-html="true" title="" data-popover-content="#Popover-Ghim"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-18">
+                <div class="Item">
+                    <img class="image" src="./images/hinhCao.jpg">
+                    <div class="hover" id="hover">
+                        <button type="button" class="btn btn-primary icon">Lưu</button>
+                        <button type="button" href="#" class="btn icon-upload Btn-Popover" data-toggle="popover"
+                        data-html="true" title="" data-popover-content="#Popover-Share"><i class="fas fa-upload"></i></button>
+                        <button type="button"  href="#" class="btn icon-read-more Btn-Popover" data-toggle="popover"
+                            data-html="true" title="" data-popover-content="#Popover-Ghim"><i class="fas fa-ellipsis-h"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="./bootstrap/js/jquery-3.5.1.min.js"></script>
+    <script src="./bootstrap/js/popper.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script> -->
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover();
+            $('.Btn-Popover').popover();
+            
+            $('.Btn-Popover').on('click', function (e) {
+                $('.Btn-Popover').not(this).popover('hide');
+            });
+
+            $("#input-share").change(function(e){
+                console.log(e.target.value)
+            })
+
+        });
+        $('.Btn-Popover').popover({
+            html: true,
+            content: function () {
+                var elementId = $(this).attr("data-popover-content");
+                console.log($(elementId).html())
+                return $(elementId).html();
+            }
+        });
+        $('.Btn-Popover2').popover({
+            html: true,
+            content: `<div class="popup-Gim" id="popup-Gim2">
+            <div class="content">
+                <div class="title">
+                    <div class="text">Ghim này lấy cảm hứng từ hoạt động gần đây của bạn</div>
+                </div>
+                <hr>
+                <div class="list">
+                    <div class="item">
+                        <p>Ẩn Ghim2</p>
+                    </div>
+                    <div class="item">
+                        <p>Tải xuống hình ảnh</p>
+                    </div>
+                    <div class="item">
+                        <p>Báo cáo Ghim</p>
+                    </div>
+                </div>
+            </div>
+        </div>`
+        });
+        $('body').on('click', function (e) {
+            $('[data-toggle="popover"]').each(function () {
+                if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+                    $(this).popover('hide');
+                    if ( $(this).closest('.hover').is($(e.target).closest('.hover')))
+                    {
+                      $(this).closest('.hover,.image').css('opacity',1);
+                    }
+                    else
+                    {
+                        $(this).closest('.hover,.image').css('opacity',0);
+                    }
+                }
+            })
+        });
+        function changeinput(){
+            console.log(event.target.value)
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<div className="col-lg-3 col-sm-6 align-just-center align-items-center">
+                            <div className="card align-items-center align-text-center pt-3" >
+                                <span style={{color: 'white', backgroundColor: '#0C713D', fontSize: '12px',right: '10px',position: 'absolute',padding: '5px 6px',fontWeight:900,borderRadius: '3px' }}>Món mới</span>
+                                <img className="card-img-top" src="../../img/laidac_thom.png" alt="hong tra" />
+                                <div className="card-body">
+                                    <h6 className="card-title">Trà Lài Đác Thơm</h6>
+                                    <p className="card-text">
+
+                                        Forest Jasmine Tea
+                                    </p>
+                                    <h5 className="card-title" style={{color: '#0C713D'}}>50.000 đ</h5>
+                                    <a href="#" className="btn btn-primary">
+                                        Đặt hàng
+                                        </a> 
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-sm-6 align-just-center align-items-center">
+                            <div className="card align-items-center align-text-center pt-3" >
+                                <img className="card-img-top" src="../../img/cf_sua.png" alt="Cafa" />
+                                <div className="card-body">
+                                    <h6 className="card-title">Hồng Trà Sữa</h6>
+                                    <p className="card-text">
+                                        Black Milk Tea
+                                    </p>
+                                    <h5 className="card-title" style={{color: '#0C713D'}}>40.000 đ</h5>
+                                    <a href="#" className="btn btn-primary">
+                                                Đặt hàng
+                                        </a> 
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-sm-6 align-just-center align-items-center">
+                            <div className="card align-items-center align-text-center pt-3" >
+                                <img className="card-img-top" src="../../img/dao_daxay.png" alt="hong tra" />
+                                <div className="card-body">
+                                    <h6 className="card-title">Trà Đào Đá Xay</h6>
+                                    <p className="card-text">
+
+                                        Peach Tea
+                                    </p>
+                                    <h5 className="card-title" style={{color: '#0C713D'}}>65.000 đ</h5>
+                                    <a href="#" className="btn btn-primary">
+                                            Đặt hàng
+                                        </a> 
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-sm-6 align-just-center align-items-center">
+                            <div className="card align-items-center align-text-center pt-3" >
+                                <img className="card-img-top" src="../../img/hoahong.png" alt="rose" />
+                                <div className="card-body">
+                                    <h6 className="card-title"> Trà Hoa Hồng</h6>
+                                    <p className="card-text">
+                                        Rose Tea
+                                    </p>
+                                    <h5 className="card-title" style={{color: '#0C713D'}}>45.000 đ</h5>
+                                    <a href="#" className="btn btn-primary">
+                                        Đặt hàng
+                                        </a> 
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div className="col-lg-3 col-sm-6 align-just-center align-items-center">
+                            <div className="card align-items-center align-text-center pt-3" >
+                                <img className="card-img-top" src="../../img/olong_sua.png" alt="hong tra" />
+                                <div className="card-body">
+                                    <h6 className="card-title">Trà Ô Long Sữa</h6>
+                                    <p className="card-text">
+                                        Oolong Milk Tea
+                                    </p>
+                                    <h5 className="card-title" style={{color: '#0C713D'}}>45.000 đ</h5>
+                                    <a href="#" className="btn btn-primary">
+                                    Đặt hàng
+                                         </a> 
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-sm-6 align-just-center align-items-center">
+                            <div className="card align-items-center align-text-center pt-3" >
+                                <img className="card-img-top" src="../../img/olongdau.png" alt="olong" />
+                                <div className="card-body">
+                                    <h6 className="card-title">  Trà Ô Long Dâu</h6>
+                                    <p className="card-text">
+
+                                        Strawberry - Oolong Tea
+
+                                    </p>
+                                    <h5 className="card-title" style={{color: '#0C713D'}}>45.000 đ</h5>
+                                    <a href="#" className="btn btn-primary">
+                                        Đặt hàng
+                                             </a> 
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-sm-6 align-just-center align-items-center">
+                            <div className="card align-items-center align-text-center pt-3" >
+                                <img className="card-img-top" src="../../img/orio.png" alt="hong tra" />
+                                <div className="card-body">
+                                    <h6 className="card-title"> Bánh Oreo Xay Cùng Cà Phê Cappuccino</h6>
+                                    <p className="card-text">
+
+                                        Oreo Cappuccino Blast
+
+                                    </p>
+                                    <h5 className="card-title" style={{color: '#0C713D'}}>55.000 đ</h5>
+                                    <a href="#" className="btn btn-primary">
+                                        Đặt hàng
+                                        </a> 
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-sm-6 align-just-center align-items-center">
+                            <div className="card align-items-center align-text-center pt-3" >
+                                <img className="card-img-top" src="../../img/socola.png" alt="hong tra" />
+                                <div className="card-body">
+                                    <h6 className="card-title">Sô-Cô-La Cà Phê Đá Xay</h6>
+                                    <p className="card-text">
+                                        Choco Lover
+
+                                    </p>
+                                    <h5 className="card-title" style={{color: '#0C713D'}}>55.000 đ</h5>
+                                    <a href="#" className="btn btn-primary">
+                                        Đặt hàng
+                                        </a> 
+                                </div>
+                            </div>
+                        </div>

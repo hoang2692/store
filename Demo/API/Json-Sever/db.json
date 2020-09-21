@@ -1,0 +1,150 @@
+{
+"products1": [
+    {
+      "id": 8,
+      "name": "Điện thoại",
+      "products2": [
+        {
+          "id": 1,
+          "name": "Hoàng",
+          "price": "100044",
+          "status": false
+        },
+        {
+          "id": 2,
+          "name": "Hoàng",
+          "price": "100044",
+          "status": false
+        },
+        {
+          "id": 3,
+          "name": "Hoàng",
+          "price": "100044",
+          "status": false
+        }
+      ]
+    },
+    {
+      "name": "Laptop",
+      "id": 10,
+      "products2": [
+        {
+          "id": 1,
+          "name": "Phương",
+          "price": "100044",
+          "status": false
+        },
+        {
+          "id": 2,
+          "name": "Phương",
+          "price": "100044",
+          "status": false
+        },
+        {
+          "id": 3,
+          "name": "Phương",
+          "price": "100044",
+          "status": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "PC",
+      "products2": [
+        {
+          "id": 1,
+          "name": "Bé Phương",
+          "price": "100044",
+          "status": false
+        },
+        {
+          "id": 2,
+          "name": "Bé Phương",
+          "price": "100044",
+          "status": false
+        },
+        {
+          "id": 3,
+          "name": "Bé Phương",
+          "price": "100044",
+          "status": false
+        }
+      ]
+    }
+  ],
+  "products2": [
+    {
+      "id": 8,
+      "name": "Điện thoại",
+      "products2": [
+        {
+          "id": 1,
+          "name": "Hoàng",
+          "price": "100044",
+          "status": false
+        },
+        {
+          "id": 2,
+          "name": "Hoàng",
+          "price": "100044",
+          "status": false
+        },
+        {
+          "id": 3,
+          "name": "Hoàng",
+          "price": "100044",
+          "status": false
+        }
+      ]
+    },
+    {
+      "name": "Laptop",
+      "id": 10,
+      "products2": [
+        {
+          "id": 1,
+          "name": "Phương",
+          "price": "100044",
+          "status": false
+        },
+        {
+          "id": 2,
+          "name": "Phương",
+          "price": "100044",
+          "status": false
+        },
+        {
+          "id": 3,
+          "name": "Phương",
+          "price": "100044",
+          "status": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "PC",
+      "products2": [
+        {
+          "id": 1,
+          "name": "Bé Phương",
+          "price": "100044",
+          "status": false
+        },
+        {
+          "id": 2,
+          "name": "Bé Phương",
+          "price": "100044",
+          "status": false
+        },
+        {
+          "id": 3,
+          "name": "Bé Phương",
+          "price": "100044",
+          "status": false
+        }
+      ]
+    }
+  ]
+}

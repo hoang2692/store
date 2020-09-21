@@ -1,0 +1,4 @@
+﻿1. Bổ sung các chức năng cho CHƯƠNG 3. THỰC NGHIỆM.
+1. Thêm thực nghiệm Test chức năng.
+3. Bổ sung Test Case Test chức năng mới cho file Excel.
+3. Thêm file Test Case chức năng mới.

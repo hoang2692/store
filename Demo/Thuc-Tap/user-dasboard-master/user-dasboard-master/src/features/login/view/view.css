@@ -1,0 +1,43 @@
+#login-page .login-form {
+  max-width: 30em;
+  padding: 2em;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+#login-page .login-form-title {
+  float: left;
+  margin-bottom: 25px;
+  font-weight: normal;
+}
+
+#login-page .login-form-forgot {
+  float: right;
+}
+
+#login-page .login-form-checkbox {
+  float: left;
+}
+
+#login-page .login-form-button {
+  width: 100%;
+}
+
+#login-page .login-form-socials {
+    float: left;
+}
+
+
+#login-page .social-ic {
+    width: 24px;
+    height: 24px;
+}
+
+#login-page  .app-logo-container {
+  text-align: center;
+}
+
+#login-page  .app-logo-container .app-logo{
+  text-align: center;
+  height: 10em;
+}

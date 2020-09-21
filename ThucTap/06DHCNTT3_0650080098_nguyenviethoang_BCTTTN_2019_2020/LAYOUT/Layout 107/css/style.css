@@ -1,0 +1,527 @@
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.content{
+    width: 1170px !important;
+    padding: 0;
+    margin: auto;
+}
+
+.position-realtive{
+    position: relative;
+}
+
+.position-absolute{
+    position: absolute;
+}
+
+@font-face {
+    font-family: DM-Regular;
+    src: url(../fonts/DM/DMSerifDisplay-Regular.ttf);
+}
+
+@font-face{
+    font-family: DM-sans-Bold;
+    src: url(../fonts/DM_Sans/DMSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: popins-extrabold;
+    src: url(../fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: DMsans-Regular;
+    src: url(../fonts/DM_Sans/DMSans-Regular.ttf);
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+/* header */
+/* Top Bar */
+#expand-toggle {
+    display: none;
+}
+
+.expandable {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+transform: translateY(calc(-100% + 5px));
+transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+z-index: 1;
+width: 80%;
+margin: auto;
+}
+
+#expand-btn-close{
+  color: red;
+  display: none;
+}
+
+
+#expand-btn {
+font-size: 32px;
+color: black;
+cursor: pointer;
+margin-bottom: 0 !important;
+}
+
+.show1{
+visibility: hidden;
+position: absolute;
+top: 50px;
+left: 0;
+right: 0;
+transform: translateX(calc(-100% + 5px));
+transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+z-index: 1;
+width: 100%;
+margin: auto;
+color: red;
+font-weight: bold;
+font-size: 32px;
+background-color: rgb(209, 203, 203);
+opacity: 0.5;
+padding-left: 25px;
+}
+.show2{
+visibility: hidden;
+position: absolute;
+top: 100px;
+left: 0;
+right: 0;
+transform: translateX(calc(-100% + 5px));
+transition: -webkit-transform 1s cubic-bezier(0.77, 0.2, 0.05, 1);
+z-index: 1;
+width: 100%;
+margin: auto;
+color: red;
+font-weight: bold;
+font-size: 32px;
+background-color: rgb(209, 203, 203);
+opacity: 0.5;
+padding-left: 25px;
+}
+
+.responsive-menu2 ul li{
+list-style: none;
+}
+
+.responsive-menu2 ul{
+padding-left: 0 !important;
+}
+
+.responsive-menu2 ul li a{
+font-size: 32px;
+font-weight: bold;
+color: red !important;
+}
+
+
+.responsive-menu ul li{
+list-style: none;
+}
+
+.responsive-menu ul{
+padding-left: 0 !important;
+}
+
+.responsive-menu ul li a{
+font-size: 32px;
+font-weight: bold;
+color: red !important;
+}
+
+.navbar-toggler{
+  border: none;
+}
+
+.navbar-toggler:focus{
+  outline: none;
+}
+
+#expand-toggle:checked ~ .expandable {
+transform: none;
+}
+
+
+
+@media screen and (max-width: 2500px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 576px) {
+.show1{
+visibility: visible;
+}
+.show2{
+visibility: visible;
+}
+
+#expand-toggle:checked ~ .show1{
+transform: none;
+}
+
+#expand-toggle:checked ~ .show2{
+transform: none;
+}
+
+.expandable{
+visibility: hidden;
+}
+}
+
+.navbar-visible{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-visible .navbar-brand{
+    font-size: 40px;
+    font-family: popins-extrabold;
+}
+/* End Top Bar */
+
+.header .BG{
+    background-image: url(../images/banners.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+}
+
+.header .text{
+    margin-top: 295px;
+}
+
+.header .text h4{
+    font-family: DM-Regular;
+    font-size: 60px;
+    margin-bottom: 22px;
+}
+
+.header .text p{
+    font-family: DM-Regular;
+    font-size: 18px;
+    margin-bottom: 33px;
+}
+
+.header .btn-learn{
+    background-color: #c46b48;
+    border-radius: 40px;
+    height: 70px;
+    width: 230px;
+    font-size: 16px;
+    color: white;
+    font-family: DM-sans-Bold;
+}
+
+/* Features */
+.features{
+    padding-top: 120px;
+    padding-bottom: 65px;
+}
+
+.features .text .title{
+    text-align: center;
+    font-size: 36px;
+    font-family: DM-Regular;
+}
+
+.features .text p{
+    font-family: DMsans-Regular;
+    font-size: 16px;
+    text-align: center;
+}
+
+.features .card .card-img-top{
+    height: 72px;
+    width: 66px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 23px;
+}
+
+.features .card{
+    border: none;
+    background-color: #f7f7f7;
+}
+
+.features .card .card-body{
+    padding-top: 0;
+    padding-bottom: 40px;
+}  
+
+.features .card .card-body .card-title{
+    font-family: DM-Regular;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.features .card .card-body .card-text{
+    font-family: DMsans-Regular;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+/* More Feature */
+.MoreFeature {
+    padding-bottom: 75px;
+}
+.MoreFeature .BG{
+    background-color: #c5c5c5;
+    height: 500px;
+    margin-top: 57px;
+}
+
+.MoreFeature .BG i{
+    font-size: 50px;
+    color: #e0f2fc;
+    box-shadow: 0px 0px 10px 10px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.MoreFeature .BG .icon{
+    padding-top: 218px;
+    display: block;
+    text-align: center;
+}
+
+.MoreFeature .text{
+    margin-top: 92px;      ;
+}
+
+.MoreFeature .text h4{
+    font-family: DM-Regular;
+    font-size: 36px;
+    margin-bottom: 18px;
+}
+
+.MoreFeature .text p{
+    font-family: Dmsans-Regular;
+    font-size: 16px;
+}
+
+.MoreFeature .btn-learn2{
+    border-radius: 40px;
+    font-size: 16px;
+    font-family: DM-sans-Bold;
+    width: 230px;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+/* lorem */
+.lorem {
+    background-color: #c46b48;
+    height: 640px;
+}
+
+.lorem .text{
+    margin-top: 190px;
+}
+
+.lorem .text h4{
+    font-family: DM-Regular;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.lorem .text p{
+    font-family: DMsans-Regular;
+    font-size: 16px;
+    color: white;
+}
+
+.lorem .btn-learn3{
+    background-color: black;
+    border-radius: 40px;
+    height: 70px;
+    width: 230px;
+    font-size: 16px;
+    color: white;
+    font-family: DM-sans-Bold;
+}
+
+.lorem .BG{
+    background-color: #c5c5c5;
+    height: 640px;
+}
+
+/* Blog */
+.blog{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.blog .text .title{
+    text-align: center;
+    font-size: 36px;
+    font-family: DM-Regular;
+}
+
+.blog .text p{
+    font-family: DMsans-Regular;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.blog .card{
+    background-color: #f7f7f7;
+    border: none;
+}
+
+.blog .card .card-body .card-title{
+    font-family: DM-Regular;
+    font-size: 23.98px;
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+
+.blog .card .card-body .card-text{
+    font-family: DMsans-Regular;
+    font-size: 15.98px;
+    margin-bottom: 25px;
+}
+
+@font-face {
+    font-family: Mont;
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+.blog .card .card-body{
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+}
+
+.blog .card .card-body .btn-read{
+    font-family: Mont;
+    font-size: 15.98px;
+}
+
+.blog .card .card-body .status{
+    font-size: 12px;
+}
+
+.blog .btn-load{
+    background-color: #c46b48;
+    border-radius: 40px;
+    height: 70px;
+    width: 230px;
+    font-size: 16px;
+    color: white;
+    font-family: DM-sans-Bold;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Et harum */
+.et{
+    background-color: #c5c5c5;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.et h4{
+    font-family: DM-Regular;
+    font-size: 35.96px;
+}
+
+.et .btn-et{
+    background-color: black;
+    border-radius: 40px;
+    height: 70px;
+    width: 230px;
+    font-size: 16px;
+    color: white;
+    font-family: DM-sans-Bold;
+    display: block;
+    margin-left: auto;
+}
+
+/* Contact */
+.contact{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.contact .title{
+    font-size: 36px;
+    font-family: DM-Regular;
+    margin-bottom: 25px;
+}
+
+.contact input{
+    height: 78px;
+}
+
+.contact .btn-submit{
+    background-color: #c46b48;
+    border-radius: 40px;
+    height: 70px;
+    width: 230px;
+    font-size: 16px;
+    color: white;
+    font-family: DM-sans-Bold;
+    margin-top: 10px;
+}
+
+/* Footer */
+.footer{
+    background-color: #202738;
+    height: 100px;
+}
+
+@font-face {
+    font-family: popin-black;
+    src: url(../fonts/Poppins/Poppins-Black.ttf);
+}
+
+.footer .logo h4 {
+    padding-top: 40px;
+    color: white !important;
+    font-family: popin-black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer .end {
+    padding-top: 40px;
+    text-align: right;
+    color: white;
+}
+
+.footer .icon {
+    padding-top: 45px;
+    color: white;
+}
+
+.footer .icon i {
+    margin-left: 9px;
+}

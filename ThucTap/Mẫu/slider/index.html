@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontawesome/fontawesome-free-5.13.1-web/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <ul class="contact">
+    <li><img src="./images/xuat file2-15.png"></li>
+    <li><img src="./images/xuat file2-16.png"></li>
+    <li style="margin-left: 6px;height: 35px;background-color: black;border:1px solid black;width: 1px   ;"></li>
+    <li><img src="./images/xuat file2-17.png"></li>
+    <li><img src="./images/xuat file2-18.png"></li>
+    <li><img src="./images/xuat file2-19.png"></li>
+    <li style="margin-left: 6px;height: 35px;background-color: black;border:1px solid black;width: 1px   ;"></li>
+  </ul>
+  <header class="header position-relative">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-fixed-top">
+      <a class="navbar-brand" href="#"><img src="./images/Asset 1.png" alt=""
+              style="width: 100px;height: 50px"/></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="BG-responsive"></div>
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item active navitem">
+                  <a class="nav-link" href="#">GIỚI THIỆU<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item navitem">
+                  <a class="nav-link" href="#">DỊCH VỤ</a>
+              </li>
+              <li class="nav-item navitem">
+                  <a class="nav-link" href="#">BẢNG TIN</a>
+              </li>
+              <li class="nav-item navitem">
+                  <a class="nav-link" href="#">TUYỂN DỤNG</a>
+              </li>
+              <li class="nav-item navitemlast">
+                  <a class="nav-link" href="#">LIÊN HỆ</a>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0" style="margin-left: 50px;">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="border: none"><i
+                      style="font-size: 20px;color: white;position: relative;" class="fas fa-search"></i></button>
+          </form>
+      </div>
+  </nav>
+    <div id="carouselId" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner position-relative" role="listbox">
+        <ul class="carousel-indicators nav">
+          <li data-target="#carouselId" data-slide-to="0"  class="nav-item position-relative active">
+            <div class="half-circle"></div>
+            <a class="nav-link" href="#">1</a>
+          </li>
+          <li  data-target="#carouselId" data-slide-to="1" class="nav-item position-relative">
+            <div class="half-circle"></div>
+            <a class="nav-link" href="#">2</a>
+          </li>
+        </ul>
+        <div class="carousel-item active">
+          <img style="width: 100%;" src="./images/xuat file2-01.png" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img style="width: 100%;" src="./images/xuat file2-01.png" alt="Second slide">
+        </div>
+      </div>
+    </div>
+  </header>
+
+    <script src="./bootstrap/js/jquery-3.5.1.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function () {
+          $(window).scroll(function () {
+              if ($(document).scrollTop() > 50) {
+                  $(".navbar-fixed-top").css("background-color", "#10ffff");
+              } else {
+                  $(".navbar-fixed-top").css("background-color", "transparent");
+              }
+          });
+      });
+    </script>
+</body>
+
+</html>

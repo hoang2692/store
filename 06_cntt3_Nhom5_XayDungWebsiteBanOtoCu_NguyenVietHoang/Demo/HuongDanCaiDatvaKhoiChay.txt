@@ -1,0 +1,13 @@
+﻿Hướng dẫn cài đặt.
+
+Bước 1: Cài Đặt Nodejs (Phần mềm có sẵn trong thư mực SoftWare).
+Bước 2: Sau khi cài Nodejs hoàn tất.
+Bước 3: Chạy CMD bằng quyền admin chạy lệnh npm install -g json-server
+Bước 4: Vào thư mục Website.
+Bước 5: Chạy CMD tại thư mục Website. Gõ lệnh: npm install. 
+
+Hướng dẫn khởi chạy.
+Bước 1: Vào thư mục Database-Json-server.
+Bước 2: Mở CMD tại thư mục Database-Json-server. Chạy lệnh: json-server --watch db.json
+Bước 3: Vào thư mục Website.
+bước 4: Chạy CMD tại thư mục Website. Chạy lệnh: npm start.

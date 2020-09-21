@@ -1,0 +1,7 @@
+{
+    "app_name": "OPAY",
+    "login": {
+        "email": "Email", 
+        "password": "Mật khẩu"
+    }
+}

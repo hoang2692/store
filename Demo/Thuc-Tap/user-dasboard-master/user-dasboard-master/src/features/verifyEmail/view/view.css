@@ -1,0 +1,32 @@
+#verify-page .verify-form {
+  /* max-width: 25em; */
+  margin: 1em 1em;
+  padding: 2em;
+  background: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#verify-page .verify-form-title {
+  /* float: left; */
+  margin-bottom: 25px;
+  font-weight: normal;
+}
+
+#verify-page .verify-form-button {
+  margin: auto;
+}
+
+#verify-page .app-logo-container {
+  text-align: center;
+}
+
+#verify-page  .app-logo-container .app-logo{
+  text-align: center;
+  height: 10em;
+}
+
+#verify-page .verify-form-text-error {
+  color: #ff0000c7;
+  font-size: 2em;
+}

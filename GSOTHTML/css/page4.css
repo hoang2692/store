@@ -1,0 +1,239 @@
+.DV .subtitle span{
+    color: orange;
+}
+
+.DV{
+    padding-bottom: 50px;
+}
+
+.DV .title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.DV .line{
+    height: 5px;
+    width: 10%;
+    background-color: orange;
+    border: 1px solid orange;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.DV .box-shadow-gray{
+    box-shadow: 4px 4px 4px 0px gray;
+}
+
+.DV .box-shadow-green{
+    box-shadow: 4px 0px 4px 0px gray,0px 4px 0px 0px green;
+}
+
+
+
+.DV .card .card-img-top{
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    margin-top: 10px !important;
+}
+
+.DV .card{
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.DV .card-bg{
+    background: linear-gradient(to right bottom,#0DB14B,#006768);
+}
+
+.DV .card-bg img{
+    display: block;
+    margin-left: auto;
+}
+
+.DV .card .card-text{
+    text-align: justify;
+}
+
+.DV .card .card-body{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.DV .button-img{
+    position: absolute;
+    margin-left: 0px;
+    bottom: 5px;
+    z-index: 999;
+    left: 10px;
+}
+
+.DV .button-group{
+    position: absolute;
+    left: 43%;
+    bottom: -75px;
+}
+
+.DV .button{
+    width:143px;
+    height: 37px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border:none;
+    background-image: linear-gradient(to left,#FF3600,#99dde2);
+    margin-left: 15px;
+}
+.DV .button-upper{
+    width:140px;
+    height: 35px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #99dde2;
+    border:none;
+    position:absolute;
+    margin-left:-141px;
+    margin-top:1px;
+}
+
+.DV .bg{
+    height: 142px;
+    width: 100%;
+    background-color: #99dde2;
+    position: absolute;
+    bottom: -40px;
+}
+
+
+.IMG-GROUP{
+    padding-top: 50px;
+}
+
+.IMG-GROUP .img1{
+    width: 100%;
+    height: 265px !important;
+}
+
+.IMG-GROUP .img1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.IMG-GROUP .img2{
+    width: 100%;
+    height: 265px !important;
+}
+
+.IMG-GROUP .img2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.IMG-GROUP .img3{
+    width: 100%;
+    height: 530px;
+}
+
+.IMG-GROUP .img3 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.contact{
+    padding-top: 40px;
+}
+
+.contact h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact input{
+    margin-top: 10px;
+    background-color: #F2F2F2;
+    border: none;
+    font-family: Fontawesome;
+}
+
+.contact input:first-child{
+    margin-top: 0;
+}
+
+.contact textarea{
+    height: 182px;
+    background-color: #F2F2F2;
+    border: none;
+    font-family: Fontawesome;
+}
+
+.contact .button-img{
+    position: absolute;
+    margin-left: 0px;
+    bottom: 5px;
+    z-index: 999;
+    left: 10px;
+}
+
+.contact .button-group{
+    position: absolute;
+    right: 202px;
+}
+
+.contact .button{
+    width:143px;
+    height: 37px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border:none;
+    background-image: linear-gradient(to left,#FF3600,white);
+    margin-left: 15px;
+}
+.contact .button-upper{
+    width:140px;
+    height: 35px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: white;
+    border:none;
+    position:absolute;
+    margin-left:-141px;
+    margin-top:1px;
+}
+
+
+@media screen and (max-width: 2500px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 576px) {
+    .DV .subtitle{
+        text-align: center;
+    }
+    .DV .button-group {
+        left: 25%;
+    }
+    .contact .button-group {
+        right: 110px;
+    }
+    .IMG-GROUP .img3 img {
+        height: unset;
+    }
+    .IMG-GROUP .img3{
+        height: unset;
+    }
+}

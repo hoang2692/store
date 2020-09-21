@@ -1,0 +1,142 @@
+    #expand-toggle {
+        display: none;
+    }
+  
+  .expandable {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(calc(-100% + 5px));
+    transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    z-index: 1;
+    width: 80%;
+    margin: auto;
+  }
+
+  #expand-btn-close{
+      color: red;
+      display: none;
+  }
+
+  
+  #expand-btn {
+    font-size: 32px;
+    color: black;
+    cursor: pointer;
+    margin-bottom: 0 !important;
+  }
+
+  .show1{
+    visibility: hidden;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    transform: translateX(calc(-100% + 5px));
+    transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    z-index: 1;
+    width: 100%;
+    margin: auto;
+    color: red;
+    font-weight: bold;
+    font-size: 32px;
+    background-color: rgb(209, 203, 203);
+    opacity: 0.5;
+    padding-left: 25px;
+  }
+  .show2{
+    visibility: hidden;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    transform: translateX(calc(-100% + 5px));
+    transition: -webkit-transform 1s cubic-bezier(0.77, 0.2, 0.05, 1);
+    z-index: 1;
+    width: 100%;
+    margin: auto;
+    color: red;
+    font-weight: bold;
+    font-size: 32px;
+    background-color: rgb(209, 203, 203);
+    opacity: 0.5;
+    padding-left: 25px;
+  }
+
+  .responsive-menu2 ul li{
+    list-style: none;
+  }
+
+  .responsive-menu2 ul{
+    padding-left: 0 !important;
+  }
+
+  .responsive-menu2 ul li a{
+    font-size: 32px;
+    font-weight: bold;
+    color: red !important;
+  }
+
+
+  .responsive-menu ul li{
+    list-style: none;
+  }
+
+  .responsive-menu ul{
+    padding-left: 0 !important;
+  }
+
+  .responsive-menu ul li a{
+    font-size: 32px;
+    font-weight: bold;
+    color: red !important;
+  }
+
+  .navbar-toggler{
+      border: none;
+  }
+
+  .navbar-toggler:focus{
+      outline: none;
+  }
+
+  #expand-toggle:checked ~ .expandable {
+    transform: none;
+  }
+  
+
+
+@media screen and (max-width: 2500px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+@media screen and (max-width: 576px) {
+  .show1{
+    visibility: visible;
+  }
+  .show2{
+    visibility: visible;
+  }
+
+  #expand-toggle:checked ~ .show1{
+    transform: none;
+  }
+
+  #expand-toggle:checked ~ .show2{
+    transform: none;
+  }
+
+  .expandable{
+    visibility: hidden;
+  }
+}
+
+
